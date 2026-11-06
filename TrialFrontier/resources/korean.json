@@ -1,0 +1,5738 @@
+[
+  {
+    "id": "TF-0001",
+    "korean": "훈련기와 모의전을 실시합니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_000.fes",
+        "offset": 19015,
+        "source_bytes": 26,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_010.fes",
+        "offset": 19015,
+        "source_bytes": 26,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0002",
+    "korean": "VF-25A가 출현했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_000.fes",
+        "offset": 19135,
+        "source_bytes": 22,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_010.fes",
+        "offset": 19135,
+        "source_bytes": 22,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0003",
+    "korean": "고스트가 출현했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_000.fes",
+        "offset": 19250,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_010.fes",
+        "offset": 19250,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0004",
+    "korean": "훈련기를 모두 격파했습니다\n테스트를 종료합니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_000.fes",
+        "offset": 19339,
+        "source_bytes": 39,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_010.fes",
+        "offset": 19339,
+        "source_bytes": 39,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0005",
+    "korean": "전투 구역 내에서 정체불명의 적을\n확인했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 29651,
+        "source_bytes": 39,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 29651,
+        "source_bytes": 39,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0006",
+    "korean": "VF-25S(OL)가 도착했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 29842,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 31331,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 31581,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 29842,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 31331,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 31581,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0007",
+    "korean": "VF-25F가 도착했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 29920,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30193,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30466,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 31249,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 31499,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 29920,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30193,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30466,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 31249,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 31499,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0008",
+    "korean": "VF-25A가 도착했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 29994,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30267,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30540,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 29994,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30267,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30540,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0009",
+    "korean": "바쥬라가 출현했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30036,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30309,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30582,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_002.fes",
+        "offset": 22337,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_002.fes",
+        "offset": 22391,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19038,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19094,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19155,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19212,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30036,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30309,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30582,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_012.fes",
+        "offset": 22337,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_012.fes",
+        "offset": 22391,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19038,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19094,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19155,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19212,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0010",
+    "korean": "RVF-25가 도착했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30111,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 31167,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30111,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 31167,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0011",
+    "korean": "VF-25G가 도착했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30384,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 31417,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30384,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 31417,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0012",
+    "korean": "바쥬라 무리를 섬멸했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_001.fes",
+        "offset": 30624,
+        "source_bytes": 30,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19661,
+        "source_bytes": 30,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 32223,
+        "source_bytes": 30,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_011.fes",
+        "offset": 30624,
+        "source_bytes": 30,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19661,
+        "source_bytes": 30,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 32223,
+        "source_bytes": 30,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0013",
+    "korean": "스컬 소대가 도착했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_002.fes",
+        "offset": 22004,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_012.fes",
+        "offset": 22004,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0014",
+    "korean": "전투 구역 내에서 적을 확인했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_002.fes",
+        "offset": 22202,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_012.fes",
+        "offset": 22202,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0015",
+    "korean": "변이 바쥬라가 출현했습니다!\n사격 공격에 대한 내성이 높은 적입니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_002.fes",
+        "offset": 22473,
+        "source_bytes": 49,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_012.fes",
+        "offset": 22473,
+        "source_bytes": 49,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0016",
+    "korean": "공격 목표를 격파했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_002.fes",
+        "offset": 22579,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_012.fes",
+        "offset": 22579,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0017",
+    "korean": "바쥬라 대군이 출현했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 18891,
+        "source_bytes": 30,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 18891,
+        "source_bytes": 30,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0018",
+    "korean": "바쥬라 10마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19291,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19291,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0019",
+    "korean": "바쥬라 20마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19332,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19332,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0020",
+    "korean": "바쥬라 30마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19373,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19373,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0021",
+    "korean": "바쥬라 40마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19414,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19414,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0022",
+    "korean": "바쥬라 50마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19455,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19455,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0023",
+    "korean": "바쥬라 60마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19496,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19496,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0024",
+    "korean": "바쥬라 70마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19537,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19537,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0025",
+    "korean": "바쥬라 80마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19578,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19578,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0026",
+    "korean": "바쥬라 90마리를 격파했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19619,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19619,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0027",
+    "korean": "바쥬라 무리가 철수를 시작했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_003.fes",
+        "offset": 19741,
+        "source_bytes": 34,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_013.fes",
+        "offset": 19741,
+        "source_bytes": 34,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0028",
+    "korean": "전투 구역 내에서 적기를 확인했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 22728,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 22728,
+        "source_bytes": 28,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0029",
+    "korean": "YF-25가 출현했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 22857,
+        "source_bytes": 19,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 22857,
+        "source_bytes": 19,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0030",
+    "korean": "RVF-25가 출현했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 22909,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 22909,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0031",
+    "korean": "VF-25F가 출현했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 22957,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23107,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23242,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23294,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23483,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 22957,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23107,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23242,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23294,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23483,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0032",
+    "korean": "VF-25S(KK)가 출현했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 22989,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23139,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23187,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23326,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23515,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 22989,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23139,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23187,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23326,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23515,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0033",
+    "korean": "VF-25G가 출현했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23055,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23055,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0034",
+    "korean": "VF-25S(OL)가 출현했습니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23420,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23420,
+        "source_bytes": 24,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0035",
+    "korean": "적기를 섬멸했습니다!",
+    "occurrences": [
+      {
+        "source": "data/script/mf_004.fes",
+        "offset": 23569,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_014.fes",
+        "offset": 23569,
+        "source_bytes": 20,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0036",
+    "korean": "픽시 소대와 모의전을 실시합니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 31632,
+        "source_bytes": 32,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 31632,
+        "source_bytes": 32,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0037",
+    "korean": "픽시 소대를 격파했습니다\n테스트를 종료합니다",
+    "occurrences": [
+      {
+        "source": "data/script/mf_005.fes",
+        "offset": 32066,
+        "source_bytes": 45,
+        "encoding": "cp932"
+      },
+      {
+        "source": "data/script/mf_015.fes",
+        "offset": 32066,
+        "source_bytes": 45,
+        "encoding": "cp932"
+      }
+    ]
+  },
+  {
+    "id": "TF-0038",
+    "korean": "젠트라디군",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4036832,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0039",
+    "korean": "바로타군",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4036896,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0040",
+    "korean": "바쥬라",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4036928,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0041",
+    "korean": "은하 순찰대",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4036968,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0042",
+    "korean": "야마시로 이츠키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037072,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0043",
+    "korean": "아키미즈 유우",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037104,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0044",
+    "korean": "클레어 스탠퍼드",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037128,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0045",
+    "korean": "피논 콜레트",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037168,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0046",
+    "korean": "캐시",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037200,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0047",
+    "korean": "파이어 발키리(노래 무장 2)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037264,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0048",
+    "korean": "미레느 발키리(노래 무장 2)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037512,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0049",
+    "korean": "사랑, 기억하고 있습니까(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037752,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0050",
+    "korean": "사랑, 기억하고 있습니까",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037968,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0051",
+    "korean": "사랑, 기억하고 있습니까\n작품: 초시공요새 마크로스 사랑, 기억하고 있습니까\n작곡: 카토 카즈히코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038000,
+        "source_bytes": 121,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0052",
+    "korean": "미레느 발키리(노래 무장 1)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038128,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0053",
+    "korean": "샤론(스킬: 샤론의 유혹)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038368,
+        "source_bytes": 51,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0054",
+    "korean": "도그 파이터",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038608,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0055",
+    "korean": "젠트라디 대요새(전편)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038736,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0056",
+    "korean": "젠트라디 대요새(후편)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038896,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0057",
+    "korean": "내 남자친구는 파일럿(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039056,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0058",
+    "korean": "내 남자친구는 파일럿",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039240,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0059",
+    "korean": "INFORMATION HIGH\n작품: 마크로스 플러스\n작곡: CMJK",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039624,
+        "source_bytes": 99,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0060",
+    "korean": "돌격 러브하트(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040056,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0061",
+    "korean": "돌격 러브하트",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040232,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0062",
+    "korean": "HOLY LONELY LIGHT(바사라)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040328,
+        "source_bytes": 62,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0063",
+    "korean": "HOLY LONELY LIGHT(미레느)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040576,
+        "source_bytes": 65,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0064",
+    "korean": "에이스 프론티어",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041288,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0065",
+    "korean": "에이스 프론티어\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041320,
+        "source_bytes": 55,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0066",
+    "korean": "란카(스킬: 반짝☆)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041376,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0067",
+    "korean": "라이온(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041896,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0068",
+    "korean": "라이온",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042160,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0069",
+    "korean": "아이모",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042248,
+        "source_bytes": 9,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0070",
+    "korean": "셰릴(스킬: 은하의 요정 1)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042328,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0071",
+    "korean": "사수자리☆오후 9시 Don't be late(스킬: 은하의 요정 1)\n작품: 마크로스 F 노래: 셰릴 놈 starring May'n\n작사: 사토 다이, hal, 마이크 스기야마, Gabriela Robin\n작곡: 칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042384,
+        "source_bytes": 236,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0072",
+    "korean": "프롤로그(제로)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043264,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0073",
+    "korean": "프롤로그(제로)\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043296,
+        "source_bytes": 52,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0074",
+    "korean": "셰릴(스킬: 은하의 요정 3)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043352,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0075",
+    "korean": "블리츠크리크",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043640,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0076",
+    "korean": "블리츠크리크\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043672,
+        "source_bytes": 49,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0077",
+    "korean": "root 2045\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043760,
+        "source_bytes": 50,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0078",
+    "korean": "Stratosphere Diver\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043872,
+        "source_bytes": 77,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0079",
+    "korean": "가워크 스트라이크스",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043952,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0080",
+    "korean": "가워크 스트라이크스\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043992,
+        "source_bytes": 61,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0081",
+    "korean": "Central Paranoia Unit\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044120,
+        "source_bytes": 84,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0082",
+    "korean": "전쟁의 내장",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044208,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0083",
+    "korean": "전쟁의 내장\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044224,
+        "source_bytes": 40,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0084",
+    "korean": "거인들의 포효",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044272,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0085",
+    "korean": "거인들의 포효\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044296,
+        "source_bytes": 43,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0086",
+    "korean": "포메이션 테이크오프",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044344,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0087",
+    "korean": "포메이션 테이크오프\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044392,
+        "source_bytes": 67,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0088",
+    "korean": "민메이(스킬: 사랑, 기억하고 있습니까)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044464,
+        "source_bytes": 60,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0089",
+    "korean": "미션 속행(초대)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044848,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0090",
+    "korean": "VS 모드 승리 징글",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044888,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0091",
+    "korean": "VS 모드 무승부 징글",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044928,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0092",
+    "korean": "VS 모드 패배 징글",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044968,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0093",
+    "korean": "파이어 발키리(노래 SPA)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045008,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0094",
+    "korean": "리틀 원더",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045280,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0095",
+    "korean": "리틀 원더\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045312,
+        "source_bytes": 49,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0096",
+    "korean": "리틀 원더 복사본",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045368,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0097",
+    "korean": "브리핑(가칭)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045408,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0098",
+    "korean": "빈 중간 이벤트(가칭)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045440,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0099",
+    "korean": "파이어 발키리(노래 무장 1)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045480,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0100",
+    "korean": "셰릴(스킬: 은하의 요정 2)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045736,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0101",
+    "korean": "미션 속행(플러스)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046056,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0102",
+    "korean": "미션 속행(7)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046096,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0103",
+    "korean": "미션 속행(F)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046128,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0104",
+    "korean": "노던 크로스(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046320,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0105",
+    "korean": "리멤버 쿼드런",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046544,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0106",
+    "korean": "리멤버 쿼드런\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046584,
+        "source_bytes": 58,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0107",
+    "korean": "에어 비트",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046648,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0108",
+    "korean": "에어 비트\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046672,
+        "source_bytes": 43,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0109",
+    "korean": "조우\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046984,
+        "source_bytes": 31,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0110",
+    "korean": "인피니티 #7(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047016,
+        "source_bytes": 37,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0111",
+    "korean": "새턴 컨플릭트",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047280,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0112",
+    "korean": "새턴 컨플릭트\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047320,
+        "source_bytes": 58,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0113",
+    "korean": "미션 속행(사랑, 기억하고 있습니까)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047656,
+        "source_bytes": 57,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0114",
+    "korean": "냥냥 상점",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047720,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0115",
+    "korean": "냥냥 상점\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047744,
+        "source_bytes": 43,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0116",
+    "korean": "미션 속행(제로)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047792,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0117",
+    "korean": "미션 속행(다이너마이트 세븐)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047832,
+        "source_bytes": 54,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0118",
+    "korean": "Hacking Deathtrap Device\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047960,
+        "source_bytes": 93,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0119",
+    "korean": "유니버설 버니(스태프 롤)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048056,
+        "source_bytes": 52,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0120",
+    "korean": "거부하는 힘",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048112,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0121",
+    "korean": "거부하는 힘\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048128,
+        "source_bytes": 40,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0122",
+    "korean": "Flashing \"Fire-V\"\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048400,
+        "source_bytes": 74,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0123",
+    "korean": "사라(스킬: 멸망의 노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048480,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0124",
+    "korean": "사라(스킬: 멸망의 노래)\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048520,
+        "source_bytes": 61,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0125",
+    "korean": "이슈타르(스킬: 이미뮬레이터)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048584,
+        "source_bytes": 54,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0126",
+    "korean": "이슈타르(스킬: 이미뮬레이터)\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048640,
+        "source_bytes": 79,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0127",
+    "korean": "뮨(스킬: VOICES)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048720,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0128",
+    "korean": "뮨(스킬: VOICES)\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048768,
+        "source_bytes": 70,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0129",
+    "korean": "폴드 스피커(노래 무장 1)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048840,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0130",
+    "korean": "폴드 스피커(노래 무장 2)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049080,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0131",
+    "korean": "에필로그(제로)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049424,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0132",
+    "korean": "에필로그(제로)\n게임 오리지널",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049456,
+        "source_bytes": 52,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0133",
+    "korean": "스톰 발키리(노래 무장 1)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049512,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0134",
+    "korean": "MY FRIENDS(드럼)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049680,
+        "source_bytes": 43,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0135",
+    "korean": "스톰 발키리(노래 SPA)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049728,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0136",
+    "korean": "2억 년 전처럼 고요하네",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049904,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0137",
+    "korean": "유니버설 버니",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050408,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0138",
+    "korean": "다이넘",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050440,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0139",
+    "korean": "오벨리스크",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050456,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0140",
+    "korean": "오벨리스크(스킬 60초 Ver)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050472,
+        "source_bytes": 40,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0141",
+    "korean": "VF-25F 알토기",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050520,
+        "source_bytes": 31,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0142",
+    "korean": "3가지 형태로 변형 가능",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050800,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0143",
+    "korean": "격투 콤보(변형)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050832,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0144",
+    "korean": "・신형 건포드 58mm\n・미사일(멀티)\n・마이크로 미사일(연사)\n・12.7mm 빔 기관총x2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050896,
+        "source_bytes": 146,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0145",
+    "korean": "VF-25S 오즈마기",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4051048,
+        "source_bytes": 31,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0146",
+    "korean": "・신형 건포드 58mm\n・미사일(멀티)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x4",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4051360,
+        "source_bytes": 161,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0147",
+    "korean": "VF-25G 미하엘기",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4051528,
+        "source_bytes": 34,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0148",
+    "korean": "・드라그노프 대물 저격소총\n・미사일(멀티)\n・미사일(싱글)\n・12.7mm 빔 기관총x1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4051840,
+        "source_bytes": 182,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0149",
+    "korean": "RVF-25 루카기",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052024,
+        "source_bytes": 28,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0150",
+    "korean": "고스트 난무",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052304,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0151",
+    "korean": "・신형 건포드 58mm\n・미사일(멀티)\n・마이크로 미사일(연사)\n・고스트 QF-4000",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052328,
+        "source_bytes": 144,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0152",
+    "korean": "YF-25 프로페시",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052480,
+        "source_bytes": 34,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0153",
+    "korean": "격투 콤보",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052784,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0154",
+    "korean": "・신형 건포드 58mm\n・미사일(멀티)\n・마이크로 미사일(연사)\n・12.7mm 빔 기관총x1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052800,
+        "source_bytes": 146,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0155",
+    "korean": "VF-25S 크란기",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4053248,
+        "source_bytes": 31,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0156",
+    "korean": "쿼드런 레아",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4053728,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0157",
+    "korean": "・고속 회전식 3연장 레이저 펄스 건\n・마이크로 미사일(연사)\n・55mm 중구경 속사 임팩트 캐논\n・대함용 임팩트 캐논",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054096,
+        "source_bytes": 189,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0158",
+    "korean": "쿼드런 레아 크란기",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054288,
+        "source_bytes": 37,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0159",
+    "korean": "고스트",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054680,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0160",
+    "korean": "인공지능을 탑재한 무인 전투기\n무인기이므로 고속 기동 전투가 가능",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054720,
+        "source_bytes": 91,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0161",
+    "korean": "고스트 루카기",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054816,
+        "source_bytes": 22,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0162",
+    "korean": "바쥬라(S)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054856,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4571608,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0163",
+    "korean": "바쥬라(S)\n곤충처럼 생긴 외계 생명체의 소형종. 머리에서 에너지 포와 미사일 형태의 유도 무기를 발사해 공격한다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054904,
+        "source_bytes": 182,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0164",
+    "korean": "・기관총\n・미사일(멀티)\n・임팩트 램",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055120,
+        "source_bytes": 77,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0165",
+    "korean": "바쥬라(L)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055200,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4571804,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0166",
+    "korean": "바쥬라(L)\n소형종보다 5배 이상 큰 바쥬라. 전함을 일격에 분쇄하는 등쪽의 대형 빔과 미사일, 기관포 형태의 무기 등 강력한 공격력을 지녔다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055248,
+        "source_bytes": 203,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0167",
+    "korean": "변이 바쥬라",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055456,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0168",
+    "korean": "외계 생명체 바쥬라\n등에 강력한 대형 빔포를 탑재",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055504,
+        "source_bytes": 73,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0169",
+    "korean": "기본",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055592,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0170",
+    "korean": "신형 건포드 58mm\n가변 전투기의 표준 주무장",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055808,
+        "source_bytes": 79,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0171",
+    "korean": "신형 건포드 58mm(빔)\n가변 전투기의 표준 주무장",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055904,
+        "source_bytes": 94,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0172",
+    "korean": "드라그노프 대물 저격소총\n원거리 사격이 가능한 소총",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4056024,
+        "source_bytes": 121,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0173",
+    "korean": "마이크로 미사일(멀티)\n여러 적을 동시에 록온할 수 있는 미사일",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4056224,
+        "source_bytes": 100,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0174",
+    "korean": "마이크로 미사일(연사)\n단일 적에게 연속 발사할 수 있는 미사일",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4056360,
+        "source_bytes": 91,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0175",
+    "korean": "마이크로 미사일(연사·블래스트)\n연속 발사 가능. 착탄 후 폭풍을 일으키는 미사일",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4056472,
+        "source_bytes": 112,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0176",
+    "korean": "마이크로 미사일(블래스트)\n착탄 후 거대한 폭풍을 일으키는 미사일",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4056608,
+        "source_bytes": 88,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0177",
+    "korean": "마이크로 미사일(멀티·블래스트)\n다중 록온 가능. 착탄 후 폭풍을 일으키는 미사일",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4056720,
+        "source_bytes": 121,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0178",
+    "korean": "반응탄\n반응 병기를 이용해 공격한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4056896,
+        "source_bytes": 46,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0179",
+    "korean": "12.7mm 빔 기관총\n머리에 탑재된 빔 기관총",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4056960,
+        "source_bytes": 79,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0180",
+    "korean": "57mm 대함·대공 겸용 속사 빔 선회포\n아머드 팩에 탑재된 빔포",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057056,
+        "source_bytes": 115,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0181",
+    "korean": "고스트\n3기의 고스트로 파상 공격을 펼친다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057192,
+        "source_bytes": 64,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0182",
+    "korean": "어설트 나이프\n어설트 나이프를 이용해 격투 공격을 한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057296,
+        "source_bytes": 73,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0183",
+    "korean": "격투\n격투 공격을 한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057432,
+        "source_bytes": 28,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0184",
+    "korean": "고속 회전식 3연장 레이저 펄스 건\n팔에 탑재된 레이저 건",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057528,
+        "source_bytes": 106,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0185",
+    "korean": "대구경 빔 캐논\n왼쪽 어깨에 탑재된 빔 캐논",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057640,
+        "source_bytes": 82,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0186",
+    "korean": "중구경 속사 임팩트 캐논\n가슴에 탑재된 캐논",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057744,
+        "source_bytes": 88,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0187",
+    "korean": "기관총\n몸체에 내장된 기관총",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057888,
+        "source_bytes": 61,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0188",
+    "korean": "미사일 바쥬라\n여러 적을 동시에 록온할 수 있는 미사일",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4057952,
+        "source_bytes": 85,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0189",
+    "korean": "임팩트 램\n머리 위쪽에서 발사하는 강력한 레이저",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4058056,
+        "source_bytes": 73,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0190",
+    "korean": "동료 호출\n바쥬라(S)를 호출한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4058152,
+        "source_bytes": 46,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0191",
+    "korean": "몸통박치기\n몸통박치기 공격을 한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4058216,
+        "source_bytes": 34,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0192",
+    "korean": "레이저포\n전면에 탑재된 레이저포",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4058280,
+        "source_bytes": 67,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0193",
+    "korean": "장거리 고기동 미사일(연사·블래스트)\n연속 발사 가능. 착탄 후 거대한 폭풍을 일으키는 미사일",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4058368,
+        "source_bytes": 136,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0194",
+    "korean": "장거리 고기동 미사일(멀티·블래스트)\n다중 록온 가능. 착탄 후 거대한 폭풍을 일으키는 미사일",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4058528,
+        "source_bytes": 145,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0195",
+    "korean": "미사일 교란\n미사일을 교란한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4058768,
+        "source_bytes": 46,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0196",
+    "korean": "신규 추가 파일럿\np0_om1남2의 음성 파일을 복사",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4060520,
+        "source_bytes": 71,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0197",
+    "korean": "란카 리(파일럿 슈트)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4060600,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0198",
+    "korean": "벡터 프로모션",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4060664,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0199",
+    "korean": "란카 리(반짝☆)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4060928,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0200",
+    "korean": "란카 리(원피스)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4060976,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0201",
+    "korean": "마크로스 프론티어",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061024,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0202",
+    "korean": "란카 리(최면)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061064,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0203",
+    "korean": "셰릴 놈(파일럿 슈트)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061104,
+        "source_bytes": 54,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0204",
+    "korean": "마크로스 갤럭시",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061168,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0205",
+    "korean": "셰릴 놈(군복)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061496,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0206",
+    "korean": "셰릴 놈(최종 결전)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061544,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0207",
+    "korean": "정체불명의 초시공 생명체. 뇌라고 할 만한 기관이 없으며, 무리 전체가 하나의 네트워크를 이루어 사고하는 것으로 추정된다. 의사 전달에는 폴드파를 사용한다. 대형 개체를 따라다니는 소형 바쥬라.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061880,
+        "source_bytes": 258,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0208",
+    "korean": "정체불명의 초시공 생명체. 뇌라고 할 만한 기관이 없으며, 무리 전체가 하나의 네트워크를 이루어 사고하는 것으로 추정된다. 의사 전달에는 폴드파를 사용한다. 주력 전력인 대형 바쥬라.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062152,
+        "source_bytes": 240,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0209",
+    "korean": "그레이스 오코너(바쥬라 여왕)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062400,
+        "source_bytes": 51,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0210",
+    "korean": "신규 추가 파일럿\np0_of1여2의 음성 파일을 복사",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062464,
+        "source_bytes": 71,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0211",
+    "korean": "그레이스 오코너(슈트)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062536,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0212",
+    "korean": "카구라 유토",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062592,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4572392,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0213",
+    "korean": "게리 머독",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062904,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4572588,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0214",
+    "korean": "루이스 페르난도",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4063216,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4572784,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0215",
+    "korean": "새로 추가된 오리지널 파일럿(남성).",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4063256,
+        "source_bytes": 60,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0216",
+    "korean": "시라카와 미유키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4063320,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4572980,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0217",
+    "korean": "힐다 V. 베르겐",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4063624,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4573176,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0218",
+    "korean": "호시무라 유이",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4063928,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4573372,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0219",
+    "korean": "새로 추가된 오리지널 파일럿(여성).",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4063960,
+        "source_bytes": 60,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0220",
+    "korean": "모든 능력치가 99인 완벽한 무명 파일럿",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4064560,
+        "source_bytes": 41,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0221",
+    "korean": "라이브 파이어 매뉴버스",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4064616,
+        "source_bytes": 49,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0222",
+    "korean": "S.M.S의 훈련에 참가해 신형 발키리와 고스트를 섬멸하라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4064680,
+        "source_bytes": 181,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0223",
+    "korean": "적을 섬멸하라",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4064864,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0224",
+    "korean": "유니버설 버니",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4064888,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0225",
+    "korean": "아일랜드 1로의 침입을 저지하기 위해 미지의 생명체를 섬멸하라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4064928,
+        "source_bytes": 176,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0226",
+    "korean": "토네이도",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4065112,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0227",
+    "korean": "대기권 내 전투에서 바쥬라를 섬멸하라. 신형 장비인 토네이도 팩의 사용을 허가한다.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4065136,
+        "source_bytes": 209,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0228",
+    "korean": "픽시 소대와 모의전을 실시한다.\n쿼드런 레아를 섬멸하라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4065360,
+        "source_bytes": 177,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0229",
+    "korean": "웨이브스 오브 바쥬라",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4065544,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0230",
+    "korean": "대량의 바쥬라가 습격해 왔다.\n제한 시간 내에 최대한 많은 적을 격추하라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4065592,
+        "source_bytes": 189,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0231",
+    "korean": "최대한 많은 적을 격추하라",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4065784,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0232",
+    "korean": "스컬 스쿼드론",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4065832,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0233",
+    "korean": "바쥬라가 되어 발키리와 싸워라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4065872,
+        "source_bytes": 140,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0234",
+    "korean": "S.M.S의 훈련에 참가해 신형 발키리와 고스트를 섬멸하라. 고스트의 AI에 주의하라.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066024,
+        "source_bytes": 131,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0235",
+    "korean": "아일랜드 1로의 침입을 저지하기 위해 미지의 생명체를 섬멸하라.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066168,
+        "source_bytes": 87,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0236",
+    "korean": "대기권 내 전투에서 바쥬라를 섬멸하라.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066264,
+        "source_bytes": 54,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0237",
+    "korean": "픽시 소대와 모의전을 실시한다.\n쿼드런 레아를 섬멸하라.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066328,
+        "source_bytes": 88,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0238",
+    "korean": "대량의 바쥬라가 습격해 왔다.\n제한 시간 내에 최대한 많은 적을 격추하라.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066432,
+        "source_bytes": 100,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0239",
+    "korean": "S.M.S 멤버들을 꺾고 진정한 에이스가 되어라!",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066544,
+        "source_bytes": 62,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0240",
+    "korean": "데모전",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066608,
+        "source_bytes": 9,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0241",
+    "korean": "아일랜드 1로의 침입을 저지하기 위해\n미지의 생명체를 섬멸하라.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066632,
+        "source_bytes": 88,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0242",
+    "korean": "출격 장면(우주)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066728,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0243",
+    "korean": "출격 장면(공중)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066768,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0244",
+    "korean": "테스트",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066848,
+        "source_bytes": 9,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0245",
+    "korean": "재장전",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066888,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0246",
+    "korean": "모든 무장의 탄약이 완전히 회복된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066904,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0247",
+    "korean": "플라이트 카니발",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067080,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0248",
+    "korean": "쇼크 가드",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067240,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0249",
+    "korean": "적의 격투 공격을 가드하면 반드시 격투 공격 튕겨내기가 발생한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067264,
+        "source_bytes": 78,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0250",
+    "korean": "리플렉션",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067360,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0251",
+    "korean": "빔 계열 사격 공격을 반사하고 실탄 공격을 무효화한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067384,
+        "source_bytes": 69,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0252",
+    "korean": "무한 부스트",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067560,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0253",
+    "korean": "부스트 게이지를 소모하지 않게 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067584,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0254",
+    "korean": "미사일 회피",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067648,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0255",
+    "korean": "적 미사일의 속도를 늦춘다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067672,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0256",
+    "korean": "격투의 유전자",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067728,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0257",
+    "korean": "에이스",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068144,
+        "source_bytes": 9,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4584936,
+        "source_bytes": 9,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0258",
+    "korean": "환상의 비약",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068352,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0259",
+    "korean": "자기 기체와 주변 아군기의 HP를 회복시키고, 격추된 경우 부활시킨다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068376,
+        "source_bytes": 111,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0260",
+    "korean": "은하의 요정",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068504,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0261",
+    "korean": "최후의 만찬",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068640,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0262",
+    "korean": "주변의 적에게 큰 피해를 준다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068664,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0263",
+    "korean": "초시공 아이돌",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068728,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0264",
+    "korean": "자기 기체와 주변 아군기의\nHP가 지속적으로 회복된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068920,
+        "source_bytes": 70,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0265",
+    "korean": "이미뮬레이터",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069000,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0266",
+    "korean": "자기 기체와 아군기의 공격력이 3배, 방어력이 절반이 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069032,
+        "source_bytes": 75,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0267",
+    "korean": "젠트란 계열 병기와 젠트라디 탑승 기체의\n모든 능력이 약해지고, 다른 병기는 강해진다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069128,
+        "source_bytes": 109,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0268",
+    "korean": "멸망의 노래",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069256,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0269",
+    "korean": "스피리치아 배리어",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069296,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0270",
+    "korean": "시빌이 자기 기체 앞에 나타나 일정 시간 배리어를 전개한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069336,
+        "source_bytes": 72,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0271",
+    "korean": "샤론의 유혹",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069424,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0272",
+    "korean": "적군의 모든 기체에서 상하 조작과 좌우 조작이 각각 반전된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069448,
+        "source_bytes": 78,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0273",
+    "korean": "맥스 월드 세컨드",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069536,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0274",
+    "korean": "자기 기체를 제외한 모든 기체의 움직임을 멈추고 SPA를 발동한다 ※L 버튼을 누른 채 발동하면 SPA 없이 사용",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069584,
+        "source_bytes": 112,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0275",
+    "korean": "롤링 플러스",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069720,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0276",
+    "korean": "파이터 형태에서 롤링 속도가 빨라지고 연속 롤링이 최대 4회까지 가능해진다(기본 3회)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069752,
+        "source_bytes": 122,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0277",
+    "korean": "록온 범위가 2배로 늘어나고 멀티 록온 속도가 1.5배가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069912,
+        "source_bytes": 88,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0278",
+    "korean": "파트너를 구조하면 HP를 50%까지 회복시킨다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070040,
+        "source_bytes": 72,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0279",
+    "korean": "미사일 처리반",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070128,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0280",
+    "korean": "안티 미사일 액션의 사용 횟수가 1.5배가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070152,
+        "source_bytes": 75,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0281",
+    "korean": "전함이나 기지에 주는 피해가 2배가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070272,
+        "source_bytes": 51,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0282",
+    "korean": "콤보 마스터",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070336,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0283",
+    "korean": "콤보를 더 쉽게 이어갈 수 있다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070360,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0284",
+    "korean": "자기 기체의 HP가 30% 이하가 되면 50%까지 회복한다 ※1회만 발동",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070424,
+        "source_bytes": 82,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0285",
+    "korean": "파인 케이크",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070528,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0286",
+    "korean": "자기 기체의 HP가 0%가 되면 HP가 회복되고 일정 시간 무적 상태가 된다 ※1회만 발동",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070552,
+        "source_bytes": 93,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0287",
+    "korean": "미션 클리어 시 파트너의 각 능력치 획득 경험치가 2배가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070680,
+        "source_bytes": 102,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0288",
+    "korean": "자기 기체의 HP가 30% 이하가 되면 일정 시간 무적 상태가 되고 각성한다 ※1회만 발동",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070808,
+        "source_bytes": 98,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0289",
+    "korean": "서커스 비행",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070928,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0290",
+    "korean": "비행할 수 없는 기체도 비행할 수 있게 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070952,
+        "source_bytes": 60,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0291",
+    "korean": "트라이앵글러",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071032,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0292",
+    "korean": "우호도 변화량이 평소의 2배가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071064,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0293",
+    "korean": "반격의 봉화",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071128,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0294",
+    "korean": "자기 기체의 HP가 30% 이하가 되면 SP 게이지가 6블록 회복된다 ※1회만 발동",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071144,
+        "source_bytes": 94,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0295",
+    "korean": "부스트 마니아",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071248,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0296",
+    "korean": "부스트 게이지 소모량이 평소의 75%가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071272,
+        "source_bytes": 59,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0297",
+    "korean": "스나이퍼",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071352,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0298",
+    "korean": "사격 명중률이 상승한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071368,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0299",
+    "korean": "알뜰살뜰",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071416,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0300",
+    "korean": "SP 게이지 소모량이 평소의 75%가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071440,
+        "source_bytes": 57,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0301",
+    "korean": "연속 미션에서 각 미션 시작 시 HP가 100% 회복된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071536,
+        "source_bytes": 90,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0302",
+    "korean": "디스트로이어",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071648,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0303",
+    "korean": "자기 기체가 데스트로이드일 때 기체 성능이 상승한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071672,
+        "source_bytes": 63,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0304",
+    "korean": "획득 냥냥 포인트가 0이 되는 대신 획득 튠 포인트가 2배가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071768,
+        "source_bytes": 93,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0305",
+    "korean": "미움받는 자",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071880,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0306",
+    "korean": "미션 클리어 시 선택한 각 캐릭터의 우호도가 감소한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071896,
+        "source_bytes": 96,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0307",
+    "korean": "모든 노래의 효과가 절반으로 감소한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4072016,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0308",
+    "korean": "적의 공격력이 2배가 되지만 플레이어 파일럿의 획득 경험치도 2배가 된다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4072072,
+        "source_bytes": 105,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0309",
+    "korean": "획득한 튠 포인트를 냥냥 포인트로 환원한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4072216,
+        "source_bytes": 72,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0310",
+    "korean": "SP 게이지가 3블록 충전된 상태로 미션을 시작한다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4072328,
+        "source_bytes": 78,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0311",
+    "korean": "미션을 선택합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080080,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0312",
+    "korean": "플레이어의 탑승 기체를 선택합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080120,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0313",
+    "korean": "플레이어 파일럿을 선택합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080168,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0314",
+    "korean": "탑승 기체의 추가 장비를 선택합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080224,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0315",
+    "korean": "서포트 캐릭터를 선택합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080264,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0316",
+    "korean": "출격합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080320,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0317",
+    "korean": "비행 조작 방식을 선택합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080336,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0318",
+    "korean": "플레이어의 탑승 기체를 표시합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080376,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0319",
+    "korean": "플레이어 파일럿을 표시합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080424,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0320",
+    "korean": "탑승 기체의 추가 장비를 표시합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080480,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0321",
+    "korean": "서포트 캐릭터를 표시합니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4080520,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0322",
+    "korean": "방향키 또는 왼쪽 스틱을 좌우로 움직이면 해당 방향으로 선회합니다. 위로 조작하면 하강, 아래로 조작하면 상승합니다. 또한 R1 버튼을 계속 누르면 록온한 대상을 자동으로 추적할 수 있습니다.\n카메라는 항상 록온한 대상을 화면 중앙 부근에 포착하며, 그 앞에 자기 기체가 배치되도록 자동으로 조정됩니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4081160,
+        "source_bytes": 411,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0323",
+    "korean": "방향키 또는 왼쪽 스틱을 좌우로 움직이면 해당 방향으로 기체를 기울일 수 있습니다. 위로 조작하면 피치 다운\n(하강 선회), 아래로 조작하면 피치 업(상승 선회)합니다.\n카메라는 자기 기체의 후방에 고정됩니다. 록온은 기체 전방 화면에 보이는 적에게만 가능합니다. R1 버튼을 계속 누르거나 SELECT 버튼을 누르면 기체 조작 방식은 그대로 유지하면서 카메라만 노멀 플라이트 방식으로 변경할 수 있습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4081576,
+        "source_bytes": 538,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0324",
+    "korean": "노멀 플라이트 조작(초보자~중급자용)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4082120,
+        "source_bytes": 63,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0325",
+    "korean": "리얼 플라이트 조작(상급자용)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4082184,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0326",
+    "korean": "플레이어와 서포트가\n같은 캐릭터일 경우 출격할 수 없습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4082840,
+        "source_bytes": 88,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0327",
+    "korean": "출격하시겠습니까?",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4083224,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0328",
+    "korean": "미션 선택 화면으로 돌아가시겠습니까?",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4083248,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0329",
+    "korean": "타이틀 화면으로 돌아가시겠습니까?",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4085256,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0330",
+    "korean": "캐릭터 프로필",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4088640,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4090152,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0331",
+    "korean": "미션을 중단합니다.\n계속하시겠습니까?",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4091416,
+        "source_bytes": 61,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0332",
+    "korean": "슈퍼 팩",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130368,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0333",
+    "korean": "VF-25용 슈퍼 팩",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130392,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0334",
+    "korean": "아머드 팩",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130448,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0335",
+    "korean": "VF-25용 아머드 팩",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130480,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0336",
+    "korean": "아머드(최종 결전 사양)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130536,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0337",
+    "korean": "아머드 팩(최종 결전 사양)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130576,
+        "source_bytes": 48,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0338",
+    "korean": "토네이도 팩",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130648,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0339",
+    "korean": "VF-25용 토네이도 팩",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130680,
+        "source_bytes": 42,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0340",
+    "korean": "아머드 팩(최종 결전 사양)\n(※대기권 내에서는 파이터 형태로 변형 불가)\n아머드에 저격소총을 장비한 최종 결전 사양\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・57mm 대함·대공 겸용 속사 빔 선회포+저격소총",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4130760,
+        "source_bytes": 398,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0341",
+    "korean": "VF-25용 토네이도 팩\n대기권 내에서도 파이터 형태로 운용할 수 있는 추가 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・선회식 연장 빔포",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4131176,
+        "source_bytes": 299,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0342",
+    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x4",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4131560,
+        "source_bytes": 329,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0343",
+    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4131912,
+        "source_bytes": 329,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0344",
+    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・드라그노프 대물 저격소총\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4132264,
+        "source_bytes": 371,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0345",
+    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・고스트 QF-4000",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4132656,
+        "source_bytes": 327,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0346",
+    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4133000,
+        "source_bytes": 329,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0347",
+    "korean": "VF-25용 아머드 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n3가지 형태로 변형할 수 있는 아머드 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・57mm 대함·대공 겸용 속사 빔 선회포",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4133384,
+        "source_bytes": 357,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0348",
+    "korean": "VF-25용 아머드 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n3가지 형태로 변형할 수 있는 아머드 장비\n・드라그노프 대물 저격소총\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・57mm 대함·대공 겸용 속사 빔 선회포",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4133760,
+        "source_bytes": 399,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0349",
+    "korean": "숨겨진 모드가 해금되었습니다.\n미션이 추가되었으니 확인해 주세요.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4136968,
+        "source_bytes": 106,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0350",
+    "korean": "숨겨진 커맨드로 모드를 변경할 수 있습니다.\n게임 실행 직후에도 숨겨진 커맨드를 사용해 숨겨진 모드를 해금할 수 있습니다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4137104,
+        "source_bytes": 148,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0351",
+    "korean": "【「극장판 마크로스 F ~작별의 날개~」를 기대해 주세요.】",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4139408,
+        "source_bytes": 91,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0352",
+    "korean": "시몬",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4154472,
+        "source_bytes": 9,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0353",
+    "korean": "요한",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4154488,
+        "source_bytes": 9,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0354",
+    "korean": "베드로",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4154504,
+        "source_bytes": 9,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0355",
+    "korean": "문자 상수의 표기에 오류가 있습니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4200760,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0356",
+    "korean": "문자열이 종료되지 않았습니다",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4200992,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0357",
+    "korean": "사오토메 알토",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4568080,
+        "source_bytes": 19,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0358",
+    "korean": "미하엘 브란",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4568276,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0359",
+    "korean": "루카 안젤로니",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4568472,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4568668,
+        "source_bytes": 30,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0360",
+    "korean": "오즈마 리",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4568864,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0361",
+    "korean": "크란 크란",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4569060,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0362",
+    "korean": "크란 크란(마이크론)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4569256,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0363",
+    "korean": "제프리 와일더",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4569452,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4569648,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0364",
+    "korean": "란카 리",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4569844,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4570040,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4570236,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4570432,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0365",
+    "korean": "셰릴 놈",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4570628,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4570824,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4571020,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0366",
+    "korean": "바비 마르고",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4571216,
+        "source_bytes": 21,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0367",
+    "korean": "브레라 스턴",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4571412,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0368",
+    "korean": "잡병용 사격 0 격투 0",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4573764,
+        "source_bytes": 27,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0369",
+    "korean": "잡병용 사격 0 격투 1 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4573960,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0370",
+    "korean": "잡병용 사격 0 격투 2 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4574156,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0371",
+    "korean": "잡병용 사격 0 격투 3 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4574352,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0372",
+    "korean": "잡병용 사격 1 격투 0 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4574548,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0373",
+    "korean": "잡병용 사격 1 격투 1 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4574744,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0374",
+    "korean": "잡병용 사격 1 격투 2 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4574940,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0375",
+    "korean": "잡병용 사격 1 격투 3 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4575136,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0376",
+    "korean": "잡병용 사격 2 격투 0 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4575332,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0377",
+    "korean": "잡병용 사격 2 격투 1 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4575528,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0378",
+    "korean": "잡병용 사격 2 격투 2 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4575724,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0379",
+    "korean": "잡병용 사격 2 격투 3 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4575920,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0380",
+    "korean": "잡병용 사격 3 격투 0 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4576116,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0381",
+    "korean": "잡병용 사격 3 격투 1 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4576312,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0382",
+    "korean": "잡병용 사격 3 격투 2 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4576508,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0383",
+    "korean": "잡병용 사격 3 격투 3 공격력 3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4576704,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0384",
+    "korean": "잡병용 사격 0 격투 1 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4576900,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0385",
+    "korean": "잡병용 사격 0 격투 2 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4577096,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0386",
+    "korean": "잡병용 사격 0 격투 3 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4577292,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0387",
+    "korean": "잡병용 사격 1 격투 0 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4577488,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0388",
+    "korean": "잡병용 사격 1 격투 1 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4577684,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0389",
+    "korean": "잡병용 사격 1 격투 2 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4577880,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0390",
+    "korean": "잡병용 사격 1 격투 3 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4578076,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0391",
+    "korean": "잡병용 사격 2 격투 0 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4578272,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0392",
+    "korean": "잡병용 사격 2 격투 1 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4578468,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0393",
+    "korean": "잡병용 사격 2 격투 2 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4578664,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0394",
+    "korean": "잡병용 사격 2 격투 3 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4578860,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0395",
+    "korean": "잡병용 사격 3 격투 0 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4579056,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0396",
+    "korean": "잡병용 사격 3 격투 1 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4579252,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0397",
+    "korean": "잡병용 사격 3 격투 2 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4579448,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0398",
+    "korean": "잡병용 사격 3 격투 3 공격력 2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4579644,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0399",
+    "korean": "잡병용 사격 0 격투 1 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4579840,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0400",
+    "korean": "잡병용 사격 0 격투 2 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4580036,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0401",
+    "korean": "잡병용 사격 0 격투 3 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4580232,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0402",
+    "korean": "잡병용 사격 1 격투 0 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4580428,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0403",
+    "korean": "잡병용 사격 1 격투 1 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4580624,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0404",
+    "korean": "잡병용 사격 1 격투 2 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4580820,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0405",
+    "korean": "잡병용 사격 1 격투 3 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4581016,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0406",
+    "korean": "잡병용 사격 2 격투 0 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4581212,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0407",
+    "korean": "잡병용 사격 2 격투 1 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4581408,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0408",
+    "korean": "잡병용 사격 2 격투 2 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4581604,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0409",
+    "korean": "잡병용 사격 2 격투 3 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4581800,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0410",
+    "korean": "잡병용 사격 3 격투 0 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4581996,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0411",
+    "korean": "잡병용 사격 3 격투 1 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4582192,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0412",
+    "korean": "잡병용 사격 3 격투 2 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4582388,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0413",
+    "korean": "잡병용 사격 3 격투 3 공격력 1",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4582584,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0414",
+    "korean": "응원(스킬용)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4582780,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0415",
+    "korean": "파인 케이크(스킬용)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4582976,
+        "source_bytes": 36,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0416",
+    "korean": "각성(스킬용)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4583172,
+        "source_bytes": 24,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0417",
+    "korean": "디스트로이어(스킬용)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4583368,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0418",
+    "korean": "스나이퍼(스킬용)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4583564,
+        "source_bytes": 33,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0419",
+    "korean": "베테랑 병사",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4583760,
+        "source_bytes": 18,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0420",
+    "korean": "사격의 명수",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4583956,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0421",
+    "korean": "격투의 명수",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4584152,
+        "source_bytes": 15,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0422",
+    "korean": "에이스 & 스나이퍼(스킬용)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4584348,
+        "source_bytes": 45,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-0423",
+    "korean": "철벽의 사나이",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4584544,
+        "source_bytes": 12,
+        "encoding": "utf-8"
+      }
+    ]
+  }
+]
