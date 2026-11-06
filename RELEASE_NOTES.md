@@ -10,7 +10,9 @@ Windows 11용 Trial Frontier 포터블 런처 및 부분 한글화 테스트 배
 
 ### 필요한 원본과 사용법
 
-일본판 『劇場版マクロスF～イツワリノウタヒメ～ Hybrid Pack』 수록 **MACROSS TRIAL FRONTIER / BLJS93001**의 ISO를 사용자가 준비해야 합니다.
+**극장판 마크로스 F - 거짓의 가희 - 하이브리드 팩 일본어판(Gekijouban Macross F - Itsuwari no Uta-hime - Hybrid Pack (Japan))의 ISO**를 사용자가 준비해야 합니다.
+
+하이브리드 팩 전체 ISO를 선택하면 런처가 필요한 게임 파일을 자동으로 추출합니다.
 
 1. ZIP을 쓰기 가능한 폴더에 모두 풉니다.
 2. `TrialFrontier.exe`에서 ISO 파일 또는 Windows 마운트 ISO 드라이브를 선택합니다. `iso/`에 ISO 한 개를 넣어 두면 자동 선택합니다.
