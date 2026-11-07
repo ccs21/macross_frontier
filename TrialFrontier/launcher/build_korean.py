@@ -34,6 +34,10 @@ def build(rom_pack, elf_path, translations, out, texconv):
     out.mkdir(parents=True,exist_ok=True)
     pack=Pack(rom_pack)
     translations=restore_originals(pack,elf_path,translations)
+    # This is the locate-file schema discriminator, NOT a displayed label.
+    # func_00076AD4 compares column 4 to this literal; changing its TOC pointer
+    # shifts subsequent actor fields (pilot, faction, spawn mode, AI) by one.
+    translations=[r for r in translations if r['japanese']!='追加装備']
     members = {str(path): pack.read(row) for group, path, row in pack.bundled_entries() if group == 'resident'}
     font_path = 'data/font/font_j24x24/font_j24x24.abf'
     abf = members[font_path]

@@ -1,10 +1,12 @@
 # Macross Frontier — Windows 포팅 프로젝트
 
+> **0.1.5:** 미션 파일 형식 판별용 내부 문자열의 오번역을 제외하여 0.1.4의 열 해석 오류를 수정했습니다. 현재 텍스트는 503항목이며 아래 0.1.4 변경 기록의 504항목에서 내부 키 1개를 제외했습니다. 자동 업데이트 후 번역·캐시 재생성을 기다려 주세요. [수정 원인과 검증 범위](https://github.com/ccs21/macross_frontier/releases/tag/v0.1.5).
+
 Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하기 위한 런처·설치 도구입니다.
 
 | 작품 | 현재 상태 |
 | --- | --- |
-| [Trial Frontier](TrialFrontier/) | **0.1.4 테스트 버전 배포**, 부분 한글화 |
+| [Trial Frontier](TrialFrontier/) | **0.1.5 테스트 버전 배포**, 부분 한글화 |
 | Last Frontier | 후속 작업 예정. 폴더만 마련한 상태이며 실행 파일은 배포하지 않습니다. |
 
 **[최신 릴리즈 다운로드](https://github.com/ccs21/macross_frontier/releases/latest)** · **[설치 및 사용 방법](TrialFrontier/README.md)** · **[현재 문제와 작업 현황](TrialFrontier/STATUS.md)**

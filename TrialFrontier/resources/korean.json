@@ -6320,21 +6320,6 @@
     ]
   },
   {
-    "id": "TFA-0002",
-    "korean": "추가 장비",
-    "occurrences": [
-      {
-        "source": "EBOOT.elf",
-        "offset": 4024400,
-        "source_bytes": 12,
-        "encoding": "utf-8",
-        "group": "ELF-data",
-        "archive": "EBOOT.elf",
-        "archive_offset": 0
-      }
-    ]
-  },
-  {
     "id": "TFA-0003",
     "korean": "통합군",
     "occurrences": [
