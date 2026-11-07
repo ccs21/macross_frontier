@@ -4,7 +4,7 @@ Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하�
 
 | 작품 | 현재 상태 |
 | --- | --- |
-| [Trial Frontier](TrialFrontier/) | **0.1.3 테스트 버전 배포**, 부분 한글화 |
+| [Trial Frontier](TrialFrontier/) | **0.1.4 테스트 버전 배포**, 부분 한글화 |
 | Last Frontier | 후속 작업 예정. 폴더만 마련한 상태이며 실행 파일은 배포하지 않습니다. |
 
 **[최신 릴리즈 다운로드](https://github.com/ccs21/macross_frontier/releases/latest)** · **[설치 및 사용 방법](TrialFrontier/README.md)** · **[현재 문제와 작업 현황](TrialFrontier/STATUS.md)**

@@ -4838,6 +4838,26 @@
         "offset": 4154472,
         "source_bytes": 9,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_010.lct",
+        "offset": 1043,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "context": "ENE020",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45324288
+      },
+      {
+        "source": "data/locate/mf_010.lct",
+        "offset": 1399,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "context": "DEMO020",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45324288
       }
     ]
   },
@@ -4850,6 +4870,26 @@
         "offset": 4154488,
         "source_bytes": 9,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_010.lct",
+        "offset": 1162,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "context": "ENE021",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45324288
+      },
+      {
+        "source": "data/locate/mf_010.lct",
+        "offset": 1521,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "context": "DEMO021",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45324288
       }
     ]
   },
@@ -4862,6 +4902,26 @@
         "offset": 4154504,
         "source_bytes": 9,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_010.lct",
+        "offset": 1280,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "context": "ENE022",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45324288
+      },
+      {
+        "source": "data/locate/mf_010.lct",
+        "offset": 1642,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "context": "DEMO022",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45324288
       }
     ]
   },
@@ -4898,6 +4958,86 @@
         "offset": 4568080,
         "source_bytes": 19,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_001.lct",
+        "offset": 764,
+        "source_bytes": 19,
+        "encoding": "utf-8",
+        "context": "FRIALT",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45314048
+      },
+      {
+        "source": "data/locate/mf_002.lct",
+        "offset": 792,
+        "source_bytes": 19,
+        "encoding": "utf-8",
+        "context": "FRIALT",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45316096
+      },
+      {
+        "source": "data/locate/mf_004.lct",
+        "offset": 1522,
+        "source_bytes": 19,
+        "encoding": "utf-8",
+        "context": "ENEALT",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45320192
+      },
+      {
+        "source": "data/locate/mf_005.lct",
+        "offset": 769,
+        "source_bytes": 19,
+        "encoding": "utf-8",
+        "context": "FRIALT",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45322240
+      },
+      {
+        "source": "data/locate/mf_011.lct",
+        "offset": 772,
+        "source_bytes": 19,
+        "encoding": "utf-8",
+        "context": "FRIALT",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45326336
+      },
+      {
+        "source": "data/locate/mf_012.lct",
+        "offset": 766,
+        "source_bytes": 19,
+        "encoding": "utf-8",
+        "context": "FRIALT",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45328384
+      },
+      {
+        "source": "data/locate/mf_014.lct",
+        "offset": 1472,
+        "source_bytes": 19,
+        "encoding": "utf-8",
+        "context": "ENEALT",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45332480
+      },
+      {
+        "source": "data/locate/mf_015.lct",
+        "offset": 769,
+        "source_bytes": 19,
+        "encoding": "utf-8",
+        "context": "FRIALT",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45334528
       }
     ]
   },
@@ -4910,6 +5050,106 @@
         "offset": 4568276,
         "source_bytes": 24,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_000.lct",
+        "offset": 520,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FACEMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45312000
+      },
+      {
+        "source": "data/locate/mf_001.lct",
+        "offset": 641,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FRIMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45314048
+      },
+      {
+        "source": "data/locate/mf_002.lct",
+        "offset": 660,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FRIMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45316096
+      },
+      {
+        "source": "data/locate/mf_004.lct",
+        "offset": 1281,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "ENEMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45320192
+      },
+      {
+        "source": "data/locate/mf_005.lct",
+        "offset": 520,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FRIMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45322240
+      },
+      {
+        "source": "data/locate/mf_010.lct",
+        "offset": 521,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FACEMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45324288
+      },
+      {
+        "source": "data/locate/mf_011.lct",
+        "offset": 645,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FRIMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45326336
+      },
+      {
+        "source": "data/locate/mf_012.lct",
+        "offset": 638,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FRIMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45328384
+      },
+      {
+        "source": "data/locate/mf_014.lct",
+        "offset": 1328,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "ENEMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45332480
+      },
+      {
+        "source": "data/locate/mf_015.lct",
+        "offset": 520,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FRIMCL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45334528
       }
     ]
   },
@@ -4928,6 +5168,106 @@
         "offset": 4568668,
         "source_bytes": 30,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_000.lct",
+        "offset": 403,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "FACELUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45312000
+      },
+      {
+        "source": "data/locate/mf_001.lct",
+        "offset": 512,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "FRILUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45314048
+      },
+      {
+        "source": "data/locate/mf_002.lct",
+        "offset": 529,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "FRILUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45316096
+      },
+      {
+        "source": "data/locate/mf_004.lct",
+        "offset": 1153,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "ENELUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45320192
+      },
+      {
+        "source": "data/locate/mf_005.lct",
+        "offset": 388,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "FRILUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45322240
+      },
+      {
+        "source": "data/locate/mf_010.lct",
+        "offset": 403,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "FACELUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45324288
+      },
+      {
+        "source": "data/locate/mf_011.lct",
+        "offset": 512,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "FRILUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45326336
+      },
+      {
+        "source": "data/locate/mf_012.lct",
+        "offset": 511,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "FRILUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45328384
+      },
+      {
+        "source": "data/locate/mf_014.lct",
+        "offset": 1178,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "ENELUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45332480
+      },
+      {
+        "source": "data/locate/mf_015.lct",
+        "offset": 388,
+        "source_bytes": 30,
+        "encoding": "utf-8",
+        "context": "FRILUK",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45334528
       }
     ]
   },
@@ -4940,6 +5280,106 @@
         "offset": 4568864,
         "source_bytes": 18,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_001.lct",
+        "offset": 388,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "FRIOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45314048
+      },
+      {
+        "source": "data/locate/mf_002.lct",
+        "offset": 402,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "FRIOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45316096
+      },
+      {
+        "source": "data/locate/mf_004.lct",
+        "offset": 1646,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "ENEOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45320192
+      },
+      {
+        "source": "data/locate/mf_004.lct",
+        "offset": 1898,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "DEMOOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45320192
+      },
+      {
+        "source": "data/locate/mf_005.lct",
+        "offset": 646,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "FRIOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45322240
+      },
+      {
+        "source": "data/locate/mf_011.lct",
+        "offset": 388,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "FRIOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45326336
+      },
+      {
+        "source": "data/locate/mf_012.lct",
+        "offset": 388,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "FRIOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45328384
+      },
+      {
+        "source": "data/locate/mf_014.lct",
+        "offset": 1758,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "ENEOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45332480
+      },
+      {
+        "source": "data/locate/mf_014.lct",
+        "offset": 2043,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "DEMOOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45332480
+      },
+      {
+        "source": "data/locate/mf_015.lct",
+        "offset": 646,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "context": "FRIOZM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45334528
       }
     ]
   },
@@ -4952,6 +5392,66 @@
         "offset": 4569060,
         "source_bytes": 21,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_004.lct",
+        "offset": 1403,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "ENEKLM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45320192
+      },
+      {
+        "source": "data/locate/mf_005.lct",
+        "offset": 890,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "FRIKLN",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45322240
+      },
+      {
+        "source": "data/locate/mf_005.lct",
+        "offset": 1008,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "ENEKLN",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45322240
+      },
+      {
+        "source": "data/locate/mf_014.lct",
+        "offset": 1614,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "ENEKLM",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45332480
+      },
+      {
+        "source": "data/locate/mf_015.lct",
+        "offset": 890,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "FRIKLN",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45334528
+      },
+      {
+        "source": "data/locate/mf_015.lct",
+        "offset": 1008,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "ENEKLN",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45334528
       }
     ]
   },
@@ -4982,6 +5482,46 @@
         "offset": 4569648,
         "source_bytes": 33,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_001.lct",
+        "offset": 1112,
+        "source_bytes": 33,
+        "encoding": "utf-8",
+        "context": "FACEJEF",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45314048
+      },
+      {
+        "source": "data/locate/mf_003.lct",
+        "offset": 392,
+        "source_bytes": 33,
+        "encoding": "utf-8",
+        "context": "FACEJEF",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45318144
+      },
+      {
+        "source": "data/locate/mf_011.lct",
+        "offset": 1128,
+        "source_bytes": 33,
+        "encoding": "utf-8",
+        "context": "FACEJEF",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45326336
+      },
+      {
+        "source": "data/locate/mf_013.lct",
+        "offset": 392,
+        "source_bytes": 33,
+        "encoding": "utf-8",
+        "context": "FACEJEF",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45330432
       }
     ]
   },
@@ -5036,6 +5576,26 @@
         "offset": 4571020,
         "source_bytes": 24,
         "encoding": "utf-8"
+      },
+      {
+        "source": "data/locate/mf_001.lct",
+        "offset": 1002,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FACESN1",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45314048
+      },
+      {
+        "source": "data/locate/mf_011.lct",
+        "offset": 1018,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "context": "FACESN1",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45326336
       }
     ]
   },
@@ -5732,6 +6292,1294 @@
         "offset": 4584544,
         "source_bytes": 12,
         "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TFA-0001",
+    "korean": "불명",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4015704,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062624,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0002",
+    "korean": "추가 장비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4024400,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0003",
+    "korean": "통합군",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4036816,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0004",
+    "korean": "신통합군",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4036864,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0005",
+    "korean": "반통합동맹군",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4036944,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0006",
+    "korean": "밀렵단",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037000,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0007",
+    "korean": "하야세 미사",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037216,
+        "source_bytes": 13,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0008",
+    "korean": "낮",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037232,
+        "source_bytes": 3,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0009",
+    "korean": "저녁",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037240,
+        "source_bytes": 3,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0010",
+    "korean": "밤",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037248,
+        "source_bytes": 3,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0011",
+    "korean": "INFORMATION HIGH(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039368,
+        "source_bytes": 55,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0012",
+    "korean": "Battle Frontier(전편)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039888,
+        "source_bytes": 55,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0013",
+    "korean": "MY FRIENDS(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040992,
+        "source_bytes": 37,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0014",
+    "korean": "TRY AGAIN(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041576,
+        "source_bytes": 34,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0015",
+    "korean": "사수자리☆오후 9시 Don’t be late(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042624,
+        "source_bytes": 68,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0016",
+    "korean": "사수자리☆오후 9시 Don’t be late",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042960,
+        "source_bytes": 59,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0017",
+    "korean": "성간비행(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046160,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0018",
+    "korean": "DYNAMITE EXPLOSION(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046720,
+        "source_bytes": 61,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0019",
+    "korean": "조우",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046976,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0020",
+    "korean": "VF-19P(노래 무장 1)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047384,
+        "source_bytes": 36,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0021",
+    "korean": "Battle Frontier(후편)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048176,
+        "source_bytes": 55,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0022",
+    "korean": "Burning Fire(노래)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050088,
+        "source_bytes": 43,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0023",
+    "korean": "주 무장+특수 무장×3",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050864,
+        "source_bytes": 25,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0024",
+    "korean": "전탄 발사(변형)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4051328,
+        "source_bytes": 24,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0025",
+    "korean": "초사격",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4051824,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0026",
+    "korean": "전탄 발사",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4053232,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0027",
+    "korean": "변형 불가",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054080,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0028",
+    "korean": "주 무장+특수 무장×2",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4055088,
+        "source_bytes": 25,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0029",
+    "korean": "자동 선택",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066808,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0030",
+    "korean": "철벽",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066960,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0031",
+    "korean": "긴급 회피",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067472,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0032",
+    "korean": "엄호 사격",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067872,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0033",
+    "korean": "격려",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068008,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0034",
+    "korean": "폭격왕",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068256,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0035",
+    "korean": "천리안",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4069896,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0036",
+    "korean": "구호반",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070024,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0037",
+    "korean": "특수 공작 부대",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070248,
+        "source_bytes": 18,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0038",
+    "korean": "응원",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070416,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0039",
+    "korean": "귀신 교관",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070664,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0040",
+    "korean": "각성",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4070800,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0041",
+    "korean": "급속 회복",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071520,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0042",
+    "korean": "개조 외길",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4071752,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0043",
+    "korean": "귀마개",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4072008,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0044",
+    "korean": "도발",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4072064,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0045",
+    "korean": "중화반점 단골",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4072192,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0046",
+    "korean": "기력 충만",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4072312,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0047",
+    "korean": "기체 개요",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4084152,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0048",
+    "korean": "지상",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4085192,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0049",
+    "korean": "우주",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4085200,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0050",
+    "korean": "지상/우주",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4085208,
+        "source_bytes": 13,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0051",
+    "korean": "일반 장비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4087344,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0052",
+    "korean": "무장 개요",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4087360,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0053",
+    "korean": "하사",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4134872,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0054",
+    "korean": "중사",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4134896,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0055",
+    "korean": "상사",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4134920,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0056",
+    "korean": "준위",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4134944,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0057",
+    "korean": "소위",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4134968,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0058",
+    "korean": "중위",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4134984,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0059",
+    "korean": "대위",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135016,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0060",
+    "korean": "소령",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135032,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0061",
+    "korean": "중령",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135048,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0062",
+    "korean": "대령",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135072,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0063",
+    "korean": "민간인",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135088,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0064",
+    "korean": "사단장",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135112,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0065",
+    "korean": "공사장",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135128,
+        "source_bytes": 9,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0066",
+    "korean": "사령",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135144,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0067",
+    "korean": "장관",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135152,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0068",
+    "korean": "주임",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135160,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0069",
+    "korean": "함장",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135168,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0070",
+    "korean": "시장",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4135176,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0071",
+    "korean": "맑음",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4138432,
+        "source_bytes": 3,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0072",
+    "korean": "흐림",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4138440,
+        "source_bytes": 3,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0073",
+    "korean": "비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4138448,
+        "source_bytes": 3,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0074",
+    "korean": "안개",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4138456,
+        "source_bytes": 3,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0075",
+    "korean": "눈",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4138472,
+        "source_bytes": 3,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0076",
+    "korean": "신병",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4573568,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0077",
+    "korean": "완전무결",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4584740,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "group": "ELF-data",
+        "archive": "EBOOT.elf",
+        "archive_offset": 0
+      }
+    ]
+  },
+  {
+    "id": "TFA-0078",
+    "korean": "S.M.S 대원",
+    "occurrences": [
+      {
+        "source": "data/locate/mf_001.lct",
+        "offset": 881,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "FRI25A",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45314048
+      },
+      {
+        "source": "data/locate/mf_002.lct",
+        "offset": 920,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "FRI25A",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45316096
+      },
+      {
+        "source": "data/locate/mf_011.lct",
+        "offset": 893,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "FRI25A",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45326336
+      },
+      {
+        "source": "data/locate/mf_012.lct",
+        "offset": 890,
+        "source_bytes": 21,
+        "encoding": "utf-8",
+        "context": "FRI25A",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45328384
+      }
+    ]
+  },
+  {
+    "id": "TFA-0079",
+    "korean": "헨리 길리엄",
+    "occurrences": [
+      {
+        "source": "data/locate/mf_004.lct",
+        "offset": 1772,
+        "source_bytes": 27,
+        "encoding": "utf-8",
+        "context": "ENEGIL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45320192
+      },
+      {
+        "source": "data/locate/mf_014.lct",
+        "offset": 1902,
+        "source_bytes": 27,
+        "encoding": "utf-8",
+        "context": "ENEGIL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45332480
+      }
+    ]
+  },
+  {
+    "id": "TFA-0080",
+    "korean": "네네",
+    "occurrences": [
+      {
+        "source": "data/locate/mf_005.lct",
+        "offset": 1132,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "context": "ENENEN",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45322240
+      },
+      {
+        "source": "data/locate/mf_015.lct",
+        "offset": 1136,
+        "source_bytes": 6,
+        "encoding": "utf-8",
+        "context": "ENENEN",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45334528
+      }
+    ]
+  },
+  {
+    "id": "TFA-0081",
+    "korean": "라라미아",
+    "occurrences": [
+      {
+        "source": "data/locate/mf_005.lct",
+        "offset": 1231,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "context": "ENELAL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45322240
+      },
+      {
+        "source": "data/locate/mf_015.lct",
+        "offset": 1239,
+        "source_bytes": 12,
+        "encoding": "utf-8",
+        "context": "ENELAL",
+        "group": "loose",
+        "archive": "data/pack/data.dat",
+        "archive_offset": 45334528
       }
     ]
   }

@@ -258,7 +258,8 @@ def install(source,root,resources,key=None,progress=lambda text,pct:None,cancel=
             integrity[name]=file_digest(stage/name)
         # These hashes describe this user's completed installation, never a fixed
         # reference ROM. They detect later corruption without rejecting variants.
-        state=dict(schema=2,title_id=TITLE_ID,metadata=checked['metadata'],required=required,integrity=integrity)
+        state=dict(schema=2,title_id=TITLE_ID,metadata=checked['metadata'],required=required,integrity=integrity,
+                   translation_digest=file_digest(resources['translations']))
         (stage/'install-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf-8')
         issue=installation_issue(stage,False)
         if issue:raise ValueError('설치 결과 확인 실패: '+issue)
@@ -277,6 +278,42 @@ def install(source,root,resources,key=None,progress=lambda text,pct:None,cancel=
             raise
         progress('준비 완료',100)
     return state
+
+def refresh_translation(root,resources,progress=lambda text,pct:None):
+    """Rebuild generated translation files after full-package replacement."""
+    root=Path(root)
+    state=json.loads((root/'install-state.json').read_text(encoding='utf-8'))
+    digest=file_digest(resources['translations'])
+    if state.get('translation_digest')==digest:return False
+    from build_korean import build
+    from prepare_asset_cache import prepare
+    with tempfile.TemporaryDirectory(prefix='.translation-',dir=root) as temporary:
+        stage=Path(temporary);overlay=stage/'localization/ko'
+        progress('새 번역과 한글 폰트 적용 중…',10)
+        records=json.loads(Path(resources['translations']).read_text(encoding='utf-8'))
+        build(root/'disc/PS3_GAME/USRDIR/data/pack',root/'EBOOT.elf',records,overlay,resources['texconv'])
+        progress('번역 데이터 캐시 갱신 중…',65)
+        prepare(root/'disc/PS3_GAME/USRDIR/data/pack',stage/'predecoded-v1.bin',extra_files=[overlay/'data.dat'])
+        names=['localization/ko/'+name for name in ('strings.bin','elf-patches.bin','pack.idx','data.dat')]
+        names.append('cache/assets/predecoded-v1.bin')
+        sources={name:(stage/'predecoded-v1.bin' if name.startswith('cache/') else stage/name) for name in names}
+        for name,path in sources.items():
+            state['required'][name]=path.stat().st_size;state['integrity'][name]=file_digest(path)
+        state['translation_digest']=digest
+        (stage/'install-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf-8')
+        sources['install-state.json']=stage/'install-state.json'
+        moved=[];saved=[]
+        try:
+            for i,(name,source) in enumerate(sources.items()):
+                target=root/name;backup=stage/f'backup-{i}'
+                if target.exists():target.rename(backup);saved.append((backup,target))
+                source.rename(target);moved.append((target,source))
+        except Exception:
+            for target,source in reversed(moved):target.rename(source)
+            for backup,target in reversed(saved):backup.rename(target)
+            raise
+    progress('새 번역 적용 완료',100)
+    return True
 
 def launch(root):
     root=Path(root).resolve()

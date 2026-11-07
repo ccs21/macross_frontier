@@ -43,3 +43,5 @@ py -3.10 -m venv .venv
 `build_korean.py`의 단독 실행 진입점에는 개발 시 사용한 폴더 배치가 남아 있습니다. 배포 런처는 그 경로를 사용하지 않고 `build()`에 설치 임시 폴더와 번역 경로를 전달합니다.
 
 원본 버전을 전체 ROM 해시로 고정하지 않습니다. 다만 현재 게임 실행 구조와 번역 위치 정보는 Trial Frontier 기준이므로 임의의 버전 호환성을 보장하지 않습니다.
+
+자동 업데이트는 공개 GitHub 릴리즈의 TrialFrontier 전체 ZIP과 asset SHA-256 digest를 사용합니다. diagnostics.py는 로컬 진단 ZIP만 작성합니다. updater.py와 asset_overlay.py를 함께 빌드해야 합니다.

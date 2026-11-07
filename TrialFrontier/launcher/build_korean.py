@@ -12,6 +12,7 @@ from extract_trial import Pack
 def restore_originals(pack, elf_path, translations):
     """Read original text from the user's files; the download only carries Korean."""
     entries={str(path):row for _,path,row in pack.entries()}
+    for _,path,row in pack.bundled_entries():entries.setdefault(str(path),row)
     cache={'EBOOT.elf':Path(elf_path).read_bytes()}
     result=[]
     for item in translations:
@@ -175,6 +176,8 @@ def build(rom_pack, elf_path, translations, out, texconv):
     for address,before,after in patches:
         binary.extend(struct.pack('<III',address,len(before),len(after))+before+after)
     (out/'elf-patches.bin').write_bytes(binary)
+    from asset_overlay import apply, localize_tables
+    apply(rom_pack,out,localize_tables(pack,translations))
     (out/'build-report.json').write_text(json.dumps(dict(translations=len(translations),new_glyphs=len(hangul),font_pages=pages+len(new_pages),resident_members=len(members),font='Locally rasterized Windows Malgun Gothic Bold; no font file bundled',runtime_verified=False),ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'Built {len(hangul)} Korean glyphs, {len(translations)} strings, {len(bundle)} byte resident bundle, {relocated} relocated strings')
 
@@ -183,5 +186,5 @@ if __name__ == '__main__':
     work=Path(__file__).resolve().parent/'work'
     build(root/'Macross Trial Frontier BLJS93001/PS3_GAME/USRDIR/data/pack',
           root/'frontier-analysis/trial/EBOOT.elf',
-          json.loads((work/'trial-korean-prepared.json').read_text(encoding='utf-8')),
+          json.loads((work/'trial-korean-current.json').read_text(encoding='utf-8')),
           work/'korean-overlay',root/'tools/texture-pack/texconv.exe')

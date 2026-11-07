@@ -13,14 +13,17 @@ if not getattr(sys,'frozen',False):
     base=Path(__file__).resolve().parents[1]
     sys.path[:0]=[str(base),str(base/'localization')]
 from install_core import install, ready, launch, resolve_source, inspect_iso, parse_key, KeyRequired, Cancelled, KEY_HELP
+import updater
 
-VERSION='0.1.3-test'
+VERSION='0.1.4-test'
 ROOT=Path(sys.executable).resolve().parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]/'installer-dev'
 BUNDLE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 RESOURCES={'rpcs3':ROOT/'tools/rpcs3/rpcs3.exe', 'texconv':ROOT/'tools/texconv.exe',
            'translations':ROOT/'resources/korean.json'}
 
 def main():
+    if len(sys.argv)==4 and sys.argv[1]=='--apply-update':
+        updater.apply_pending(Path(sys.argv[2]),int(sys.argv[3]));return
     # A directory-scoped OS lock survives launcher renames and releases on exit.
     ROOT.mkdir(parents=True,exist_ok=True)
     lock=(ROOT/'.launcher.lock').open('a+b')
@@ -61,6 +64,26 @@ def main():
     def enable(value):
         for button in (file_button,mount_button,start):button.config(state='normal' if value else 'disabled')
     def progress(text,percent):events.put(('progress',(text,percent)))
+    def run_game():
+        from diagnostics import run_and_record
+        run_and_record(ROOT,VERSION,launch)
+    def startup():
+        if getattr(sys,'frozen',False) and '--skip-update-once' not in sys.argv:
+            try:
+                release=updater.latest(VERSION)
+                if release:
+                    payload=updater.download(ROOT,release,progress)
+                    events.put(('update',payload));return
+            except Exception as error:
+                (ROOT/'update.log').write_text(str(error),encoding='utf-8')
+        valid=ready(ROOT)
+        if valid:
+            try:
+                from install_core import refresh_translation
+                refresh_translation(ROOT,RESOURCES,progress)
+            except Exception as error:
+                events.put(('error',error));return
+        events.put(('ready',valid))
     def worker(path,key):
         try:
             iso=resolve_source(path);inspect_iso(iso,key)
@@ -87,11 +110,13 @@ def main():
                 kind,data=events.get_nowait()
                 if kind=='progress':status.set(data[0]);bar['value']=data[1];continue
                 state['busy']=False;enable(True)
-                if kind=='ready':
+                if kind=='update':
+                    updater.handoff(ROOT,data);window.destroy();return
+                elif kind=='ready':
                     bar.stop();bar.config(mode='determinate');bar['value']=0
                     if data:
                         window.withdraw()
-                        try:launch(ROOT).wait()
+                        try:run_game()
                         except Exception as error:messagebox.showerror('실행 실패',str(error),parent=window)
                         window.destroy();return
                     status.set('설치 파일이 없거나 손상되었습니다. ISO를 선택해 설치하세요. 저장·설정은 유지됩니다.')
@@ -105,7 +130,7 @@ def main():
                     else:status.set('키 입력을 취소했습니다.')
                 elif kind=='done':
                     window.withdraw()
-                    try:launch(ROOT).wait()
+                    try:run_game()
                     except Exception as error:messagebox.showerror('실행 실패',str(error),parent=window)
                     window.destroy();return
                 elif kind=='error':status.set('준비에 실패했습니다. 원인을 확인한 뒤 다시 시도하세요.');messagebox.showerror('설치 실패',data,parent=window)
@@ -114,9 +139,8 @@ def main():
         window.after(100,poll)
     candidates=list(ROOT.glob('*.iso'))+list((ROOT/'iso').glob('*.iso'))
     if len(candidates)==1:source.set(str(candidates[0]))
-    if (ROOT/'install-state.json').exists():
-        enable(False);status.set('설치된 파일의 무결성 확인 중…');bar.config(mode='indeterminate');bar.start()
-        threading.Thread(target=lambda:events.put(('ready',ready(ROOT))),daemon=True).start()
+    enable(False);status.set('새 버전 및 설치 파일 확인 중…');bar.config(mode='indeterminate');bar.start()
+    threading.Thread(target=startup,daemon=True).start()
     poll();window.mainloop()
 
 if __name__=='__main__':
