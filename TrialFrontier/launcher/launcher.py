@@ -15,13 +15,22 @@ if not getattr(sys,'frozen',False):
 from install_core import install, ready, launch, resolve_source, inspect_iso, parse_key, KeyRequired, Cancelled, KEY_HELP
 import updater
 
-VERSION='0.1.6-test'
+VERSION='0.1.7-test'
 ROOT=Path(sys.executable).resolve().parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]/'installer-dev'
 BUNDLE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 RESOURCES={'rpcs3':ROOT/'tools/rpcs3/rpcs3.exe', 'texconv':ROOT/'tools/texconv.exe',
            'translations':ROOT/'resources/korean.json'}
 
 def main():
+    if '--prepare-runtime-only' in sys.argv:
+        from prepare_runtime import ensure
+        with (ROOT/'runtime-prepare.log').open('w',encoding='utf-8') as log:
+            previous=sys.stdout,sys.stderr
+            try:
+                sys.stdout=sys.stderr=log
+                ensure(ROOT,lambda text,pct:print(pct,text,flush=True))
+            finally:sys.stdout,sys.stderr=previous
+        return
     if len(sys.argv)==4 and sys.argv[1]=='--apply-update':
         updater.apply_pending(Path(sys.argv[2]),int(sys.argv[3]));return
     # A directory-scoped OS lock survives launcher renames and releases on exit.
@@ -44,7 +53,7 @@ def main():
     window.deiconify();window.geometry('680x340');window.minsize(620,320)
     frame=ttk.Frame(window,padding=22);frame.pack(fill='both',expand=True)
     ttk.Label(frame,text='트라이얼 프론티어 · 최초 실행 준비',font=('맑은 고딕',16,'bold')).pack(anchor='w')
-    ttk.Label(frame,text='거짓의 가희 Hybrid Pack (BLJS93001)의 ISO를 선택하세요.\n설치 파일·저장·설정은 이 폴더에 보관됩니다. 물리 BD는 지원하지 않습니다.',wraplength=610).pack(anchor='w',pady=(12,16))
+    ttk.Label(frame,text='극장판 마크로스 F - 거짓의 가희 - 하이브리드 팩 일본어판\n(Gekijouban Macross F - Itsuwari no Uta-hime - Hybrid Pack (Japan))의 ISO를 선택하세요.\n설치 파일·저장·설정은 이 폴더에 보관됩니다.',wraplength=610).pack(anchor='w',pady=(12,16))
     source=tk.StringVar();ttk.Entry(frame,textvariable=source).pack(fill='x')
     buttons=ttk.Frame(frame);buttons.pack(fill='x',pady=8)
     def pick_file():
@@ -81,6 +90,8 @@ def main():
             try:
                 from install_core import refresh_translation
                 refresh_translation(ROOT,RESOURCES,progress)
+                from prepare_runtime import ensure
+                ensure(ROOT,progress)
             except Exception as error:
                 events.put(('error',error));return
         events.put(('ready',valid))
@@ -88,6 +99,8 @@ def main():
         try:
             iso=resolve_source(path);inspect_iso(iso,key)
             install(iso,ROOT,RESOURCES,key,progress,cancel)
+            from prepare_runtime import ensure
+            ensure(ROOT,progress)
             events.put(('done',None))
         except KeyRequired:events.put(('key',None))
         except Cancelled as error:events.put(('cancel',str(error)))
@@ -146,4 +159,9 @@ def main():
 if __name__=='__main__':
     try:main()
     except Exception as error:
+        if '--prepare-runtime-only' in sys.argv:
+            with (ROOT/'runtime-prepare.log').open('a',encoding='utf-8') as log:
+                import traceback
+                traceback.print_exc(file=log)
+            sys.exit(1)
         ctypes.windll.user32.MessageBoxW(None,str(error),'Trial Frontier 런처 오류',0x10)

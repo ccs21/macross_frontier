@@ -1,12 +1,12 @@
 # Macross Frontier — Windows 포팅 프로젝트
 
-> **0.1.6 테스트 버전:** 미쉘기·루카기 주 무장 및 부스트 정지에 관련된 무장 분기 누락 29개를 수정했습니다. 사용자 직접 플레이 확인 범위로 배포하며 타 PC·전체 미션 검증은 미완료입니다. **전투 중 20fps 미만 하락과 끊김은 미해결**입니다. [릴리즈 설명](https://github.com/ccs21/macross_frontier/releases/tag/v0.1.6).
+> **0.1.7 테스트 버전:** Vulkan·SPU LLVM 실행과 설치 시 SPU 코드 자동 생성을 반영했습니다. 화면 일부 오류를 수정했지만 **광원 검증과 전투 30fps 고정은 미완료**입니다. [릴리즈 설명](https://github.com/ccs21/macross_frontier/releases/tag/v0.1.7).
 
 Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하기 위한 런처·설치 도구입니다.
 
 | 작품 | 현재 상태 |
 | --- | --- |
-| [Trial Frontier](TrialFrontier/) | **0.1.5 테스트 버전 배포**, 부분 한글화 |
+| [Trial Frontier](TrialFrontier/) | **0.1.7 테스트 버전 배포**, 부분 한글화 |
 | Last Frontier | 후속 작업 예정. 폴더만 마련한 상태이며 실행 파일은 배포하지 않습니다. |
 
 **[최신 릴리즈 다운로드](https://github.com/ccs21/macross_frontier/releases/latest)** · **[설치 및 사용 방법](TrialFrontier/README.md)** · **[현재 문제와 작업 현황](TrialFrontier/STATUS.md)**

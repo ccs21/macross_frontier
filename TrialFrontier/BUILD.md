@@ -45,3 +45,15 @@ py -3.10 -m venv .venv
 원본 버전을 전체 ROM 해시로 고정하지 않습니다. 다만 현재 게임 실행 구조와 번역 위치 정보는 Trial Frontier 기준이므로 임의의 버전 호환성을 보장하지 않습니다.
 
 자동 업데이트는 공개 GitHub 릴리즈의 TrialFrontier 전체 ZIP과 asset SHA-256 digest를 사용합니다. diagnostics.py는 로컬 진단 ZIP만 작성합니다. updater.py와 asset_overlay.py를 함께 빌드해야 합니다.
+
+
+## 0.1.7 SPU preparation inputs
+
+The public launcher build now also requires:
+
+- `--spu-toolchain PATH`: the complete `resources/spu-build` directory from the 0.1.7 full package, including Clang 19 and resource headers.
+- `--native-runtime PATH`: its `resources/native-runtime` directory (SDL2 and llvmlite DLLs).
+
+The repository provides the generation recipes, lifter, ABI headers and minimal IR-only C declarations. Original SPU images, translated game C/IR and object caches are not public inputs. On the user's PC, `prepare_spu.py` reads the installed EBOOT and generates the six LLVM modules. `prepare_runtime.py` performs both the first preparation and migration after full-package updates. `--prepare-runtime-only` runs that preparation without starting gameplay and records `runtime-prepare.log`.
+
+After assembly, include the licenses supplied with the full package. The native executable is still a separately supplied build artifact; this repository does not reconstruct the complete game executable.
