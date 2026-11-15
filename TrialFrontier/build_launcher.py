@@ -27,8 +27,8 @@ def main():
     if output.exists():parser.error('Output must be new; an installed game folder must never be overwritten.')
     work=ROOT/'build'
     subprocess.run([sys.executable,'-m','PyInstaller','--noconfirm','--clean','--onedir','--windowed',
-        '--name','TrialFrontier','--icon',str(ROOT/'resources/icon.ico'),
-        '--add-data',str(ROOT/'resources/icon.ico')+';.', '--paths',str(ROOT/'launcher'),
+        '--name','TrialFrontier','--icon',str(ROOT/'resources/trialicon.ico'),
+        '--add-data',str(ROOT/'resources/trialicon.ico')+';.', '--paths',str(ROOT/'launcher'),
         '--hidden-import','Crypto.Cipher.AES','--hidden-import','build_korean',
         '--hidden-import','prepare_asset_cache','--hidden-import','extract_trial','--hidden-import','dataclasses',
         '--distpath',str(work/'dist'),'--workpath',str(work/'work'),'--specpath',str(work),
@@ -41,6 +41,7 @@ def main():
     shutil.copytree(args.rpcs3_dir/'qt6/plugins',tools/'rpcs3/qt6/plugins')
     shutil.copy2(args.texconv,tools/'texconv.exe')
     (output/'resources').mkdir();shutil.copy2(ROOT/'resources/korean.json',output/'resources/korean.json')
+    shutil.copy2(ROOT/'resources/voice-subtitles.tsv',output/'resources/voice-subtitles.tsv')
     shutil.copytree(args.spu_toolchain,output/'resources/spu-build')
     # Use the current authored recipes, tools and ABI headers.
     shutil.copytree(ROOT/'resources/spu-build',output/'resources/spu-build',dirs_exist_ok=True)

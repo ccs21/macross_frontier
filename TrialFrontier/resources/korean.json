@@ -4863,7 +4863,7 @@
   },
   {
     "id": "TF-0353",
-    "korean": "요한",
+    "korean": "요하네",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4895,7 +4895,7 @@
   },
   {
     "id": "TF-0354",
-    "korean": "베드로",
+    "korean": "페테로",
     "occurrences": [
       {
         "source": "EBOOT.elf",

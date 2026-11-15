@@ -6,6 +6,7 @@ import bisect
 import hashlib
 import json
 import os
+import re
 from pathlib import Path, PurePosixPath
 import shutil
 import struct
@@ -313,6 +314,23 @@ def refresh_translation(root,resources,progress=lambda text,pct:None):
             for backup,target in reversed(saved):backup.rename(target)
             raise
     progress('새 번역 적용 완료',100)
+    return True
+
+def sync_voice_subtitles(root,resources):
+    """Apply the shipped UTF-8 catalog after both installs and full updates."""
+    source=Path(resources['translations']).with_name('voice-subtitles.tsv')
+    if not source.is_file():return False
+    data=source.read_bytes();seen=set()
+    for line in data.decode('utf-8-sig').splitlines():
+        if not line or line.startswith('#'):continue
+        ident,sep,text=line.partition('\t')
+        if not sep or not re.fullmatch(r'\w+',ident) or ident in seen or not text.strip() or len(line.encode('utf-8'))>4096:
+            raise ValueError('잘못된 음성 자막 데이터')
+        seen.add(ident)
+    target=Path(root)/'localization/ko/voice-subtitles.tsv'
+    if target.exists() and target.read_bytes()==data:return False
+    target.parent.mkdir(parents=True,exist_ok=True)
+    temporary=target.with_suffix('.tsv.tmp');temporary.write_bytes(data);os.replace(temporary,target)
     return True
 
 def launch(root):

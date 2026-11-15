@@ -15,7 +15,7 @@ if not getattr(sys,'frozen',False):
 from install_core import install, ready, launch, resolve_source, inspect_iso, parse_key, KeyRequired, Cancelled, KEY_HELP
 import updater
 
-VERSION='0.1.8-test'
+VERSION='1.0.0'
 ROOT=Path(sys.executable).resolve().parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]/'installer-dev'
 BUNDLE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 RESOURCES={'rpcs3':ROOT/'tools/rpcs3/rpcs3.exe', 'texconv':ROOT/'tools/texconv.exe',
@@ -88,8 +88,9 @@ def main():
         valid=ready(ROOT)
         if valid:
             try:
-                from install_core import refresh_translation
+                from install_core import refresh_translation, sync_voice_subtitles
                 refresh_translation(ROOT,RESOURCES,progress)
+                sync_voice_subtitles(ROOT,RESOURCES)
                 from prepare_runtime import ensure
                 ensure(ROOT,progress)
             except Exception as error:
@@ -99,6 +100,8 @@ def main():
         try:
             iso=resolve_source(path);inspect_iso(iso,key)
             install(iso,ROOT,RESOURCES,key,progress,cancel)
+            from install_core import sync_voice_subtitles
+            sync_voice_subtitles(ROOT,RESOURCES)
             from prepare_runtime import ensure
             ensure(ROOT,progress)
             events.put(('done',None))
