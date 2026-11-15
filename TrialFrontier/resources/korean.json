@@ -2509,7 +2509,7 @@
   },
   {
     "id": "TF-0163",
-    "korean": "바쥬라(S)\n곤충처럼 생긴 외계 생명체의 소형종. 머리에서 에너지 포와 미사일 형태의 유도 무기를 발사해 공격한다.",
+    "korean": "바쥬라(S)\n곤충을 닮은 외계 생명체의 소형종.\n머리에서 에너지 포와 미사일 형태의\n유도 무기를 발사해 공격한다.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -2551,7 +2551,7 @@
   },
   {
     "id": "TF-0166",
-    "korean": "바쥬라(L)\n소형종보다 5배 이상 큰 바쥬라. 전함을 일격에 분쇄하는 등쪽의 대형 빔과 미사일, 기관포 형태의 무기 등 강력한 공격력을 지녔다.",
+    "korean": "바쥬라(L)\n소형종보다 5배 이상 큰 바쥬라.\n전함을 일격에 부수는 등의 대형 빔과\n미사일·기관포 형태의 무기를 갖추어\n강력한 공격력을 발휘한다.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -3259,7 +3259,7 @@
   },
   {
     "id": "TF-0222",
-    "korean": "S.M.S의 훈련에 참가해 신형 발키리와 고스트를 섬멸하라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "korean": "S.M.S 훈련에 참가해 신형 발키리와\n고스트를 섬멸하라.\n\n※기체·파일럿·장비·서포트 변경 불가.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -3295,7 +3295,7 @@
   },
   {
     "id": "TF-0225",
-    "korean": "아일랜드 1로의 침입을 저지하기 위해 미지의 생명체를 섬멸하라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "korean": "아일랜드 1 침입을 막기 위해\n미지의 생명체를 섬멸하라.\n\n※기체·파일럿·장비·서포트 변경 불가.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -3319,7 +3319,7 @@
   },
   {
     "id": "TF-0227",
-    "korean": "대기권 내 전투에서 바쥬라를 섬멸하라. 신형 장비인 토네이도 팩의 사용을 허가한다.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "korean": "대기권 내 전투에서 바쥬라를 섬멸하라.\n신형 장비 토네이도 팩의 사용을 허가한다.\n\n※기체·파일럿·장비·서포트 변경 불가.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -3331,7 +3331,7 @@
   },
   {
     "id": "TF-0228",
-    "korean": "픽시 소대와 모의전을 실시한다.\n쿼드런 레아를 섬멸하라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "korean": "픽시 소대와 모의전을 실시한다.\n쿼드런 레아를 섬멸하라.\n\n※기체·파일럿·장비·서포트 변경 불가.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -3355,7 +3355,7 @@
   },
   {
     "id": "TF-0230",
-    "korean": "대량의 바쥬라가 습격해 왔다.\n제한 시간 내에 최대한 많은 적을 격추하라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "korean": "대량의 바쥬라가 습격해 왔다.\n제한 시간 내에 최대한 많이 격추하라.\n\n※기체·파일럿·장비·서포트 변경 불가.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -3391,7 +3391,7 @@
   },
   {
     "id": "TF-0233",
-    "korean": "바쥬라가 되어 발키리와 싸워라.\n\n※기체, 파일럿, 장비, 서포트는 고정되어 변경할 수 없습니다.",
+    "korean": "바쥬라가 되어 발키리와 싸워라.\n\n※기체·파일럿·장비·서포트 변경 불가.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "TF-0322",
-    "korean": "방향키 또는 왼쪽 스틱을 좌우로 움직이면 해당 방향으로 선회합니다. 위로 조작하면 하강, 아래로 조작하면 상승합니다. 또한 R1 버튼을 계속 누르면 록온한 대상을 자동으로 추적할 수 있습니다.\n카메라는 항상 록온한 대상을 화면 중앙 부근에 포착하며, 그 앞에 자기 기체가 배치되도록 자동으로 조정됩니다.",
+    "korean": "방향키/왼쪽 스틱: 좌우로 선회.\n위로 밀면 하강, 아래로 당기면 상승.\nR1을 누르고 있으면 록온 대상을\n자동 추적합니다. 카메라는 대상을\n화면 중앙에, 내 기체를 그 앞에\n두도록 자동 조정됩니다.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4477,7 +4477,7 @@
   },
   {
     "id": "TF-0323",
-    "korean": "방향키 또는 왼쪽 스틱을 좌우로 움직이면 해당 방향으로 기체를 기울일 수 있습니다. 위로 조작하면 피치 다운\n(하강 선회), 아래로 조작하면 피치 업(상승 선회)합니다.\n카메라는 자기 기체의 후방에 고정됩니다. 록온은 기체 전방 화면에 보이는 적에게만 가능합니다. R1 버튼을 계속 누르거나 SELECT 버튼을 누르면 기체 조작 방식은 그대로 유지하면서 카메라만 노멀 플라이트 방식으로 변경할 수 있습니다.",
+    "korean": "방향키/왼쪽 스틱: 좌우로 기울임.\n위로 밀면 하강, 아래로 당기면 상승 선회.\n카메라는 기체 뒤에 고정되며, 전방\n화면 안의 적만 록온할 수 있습니다.\nR1을 누르고 있거나 SELECT를 누르면\n조작은 유지하고 카메라만 노멀\n플라이트 방식으로 바뀝니다.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4687,7 +4687,7 @@
   },
   {
     "id": "TF-0340",
-    "korean": "아머드 팩(최종 결전 사양)\n(※대기권 내에서는 파이터 형태로 변형 불가)\n아머드에 저격소총을 장비한 최종 결전 사양\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・57mm 대함·대공 겸용 속사 빔 선회포+저격소총",
+    "korean": "아머드 팩(최종 결전 사양)\n※대기권 내 파이터 변형 불가\n아머드에 저격소총을 추가한 결전 장비\n·신형 건포드 58mm\n·마이크로 미사일(멀티/연사·블래스트)\n·57mm 대함·대공 속사 빔 선회포\n·저격소총",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4699,7 +4699,7 @@
   },
   {
     "id": "TF-0341",
-    "korean": "VF-25용 토네이도 팩\n대기권 내에서도 파이터 형태로 운용할 수 있는 추가 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・선회식 연장 빔포",
+    "korean": "VF-25용 토네이도 팩\n대기권 내 파이터 운용이 가능한 장비\n·신형 건포드 58mm\n·마이크로 미사일(멀티·블래스트)\n·마이크로 미사일(연사·블래스트)\n·선회식 연장 빔포",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4711,7 +4711,7 @@
   },
   {
     "id": "TF-0342",
-    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x4",
+    "korean": "VF-25용 슈퍼 팩\n※대기권 내 파이터 변형 불가\n메사이어의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x4",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4723,7 +4723,7 @@
   },
   {
     "id": "TF-0343",
-    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x2",
+    "korean": "VF-25용 슈퍼 팩\n※대기권 내 파이터 변형 불가\n메사이어의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x2",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4735,7 +4735,7 @@
   },
   {
     "id": "TF-0344",
-    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・드라그노프 대물 저격소총\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x1",
+    "korean": "VF-25용 슈퍼 팩\n※대기권 내 파이터 변형 불가\n메사이어의 대기권 밖 표준 장비\n・드라그노프 대물 저격소총\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x1",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4747,7 +4747,7 @@
   },
   {
     "id": "TF-0345",
-    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・고스트 QF-4000",
+    "korean": "VF-25용 슈퍼 팩\n※대기권 내 파이터 변형 불가\n메사이어의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・고스트 QF-4000",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4759,7 +4759,7 @@
   },
   {
     "id": "TF-0346",
-    "korean": "VF-25용 슈퍼 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n메시아의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x1",
+    "korean": "VF-25용 슈퍼 팩\n※대기권 내 파이터 변형 불가\n메사이어의 대기권 밖 표준 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・12.7mm 빔 기관총x1",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4771,7 +4771,7 @@
   },
   {
     "id": "TF-0347",
-    "korean": "VF-25용 아머드 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n3가지 형태로 변형할 수 있는 아머드 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・57mm 대함·대공 겸용 속사 빔 선회포",
+    "korean": "VF-25용 아머드 팩\n※대기권 내 파이터 변형 불가\n3단 변형 대응 아머드 장비\n・신형 건포드 58mm\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・57mm 대함·대공 속사 빔 선회포",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4783,7 +4783,7 @@
   },
   {
     "id": "TF-0348",
-    "korean": "VF-25용 아머드 팩\n(※대기권 내에서는 파이터 형태로 변형 불가)\n3가지 형태로 변형할 수 있는 아머드 장비\n・드라그노프 대물 저격소총\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・57mm 대함·대공 겸용 속사 빔 선회포",
+    "korean": "VF-25용 아머드 팩\n※대기권 내 파이터 변형 불가\n3단 변형 대응 아머드 장비\n・드라그노프 대물 저격소총\n・마이크로 미사일(멀티·블래스트)\n・마이크로 미사일(연사·블래스트)\n・57mm 대함·대공 속사 빔 선회포",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -4807,7 +4807,7 @@
   },
   {
     "id": "TF-0350",
-    "korean": "숨겨진 커맨드로 모드를 변경할 수 있습니다.\n게임 실행 직후에도 숨겨진 커맨드를 사용해 숨겨진 모드를 해금할 수 있습니다.",
+    "korean": "숨겨진 커맨드로 모드를 바꿀 수 있습니다.\n게임 실행 직후에도 이 커맨드를 사용해\n숨겨진 모드를 해금할 수 있습니다.",
     "occurrences": [
       {
         "source": "EBOOT.elf",
@@ -7565,6 +7565,972 @@
         "group": "loose",
         "archive": "data/pack/data.dat",
         "archive_offset": 45334528
+      }
+    ]
+  },
+  {
+    "id": "TF-HANGAR-001",
+    "korean": "VF-25F 메사이어 (알토기)\n군사 기업 S.M.S에 시험 운용을 겸해\n배치된 최신예 기체. 알토가 탑승하는\nF형은 고기동 전투를 중시한 기체다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050568,
+        "source_bytes": 230,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-HANGAR-002",
+    "korean": "파일럿 양성 과정을 밟는 고교생.\n바쥬라의 습격을 계기로 발키리의\n파일럿이 된다. 가부키 명문가 출신으로,\n타고난 재능과 미모로 여역을 연기했다.\n(CV: 나카무라 유이치)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4058872,
+        "source_bytes": 268,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-HANGAR-003",
+    "korean": "쉐릴과 만난 뒤 스타를 향한 첫걸음을\n내딛기 시작한 신인 아이돌. 알토를\n둘러싼 쉐릴과의 사랑 싸움은 이제\n막 시작되었다.\n(CV: 나카지마 메구미)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4060704,
+        "source_bytes": 217,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-HANGAR-004",
+    "korean": "적을 잠시 멈추고 나와 주변 아군의 HP 회복. SP 3칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068752,
+        "source_bytes": 120,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3d9ac8",
+    "korean": "HOLY LONELY LIGHT(파이어 발키리:노래 무장2)\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:K.Inojo 작곡:스도 히데키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037320,
+        "source_bytes": 189,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3d9bb8",
+    "korean": "HOLY LONELY LIGHT(밀레느 발키리:노래 무장2)\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:K.Inojo 작곡:스도 히데키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037560,
+        "source_bytes": 186,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3d9ca0",
+    "korean": "사랑, 기억하고 있습니까\n작품:초시공요새 마크로스 사랑, 기억하고 있습니까\n노래:이이지마 마리\n작사:야스이 카즈미 작곡:카토 카즈히코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4037792,
+        "source_bytes": 173,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3d9e20",
+    "korean": "MY FRIENDS(밀레느 발키리:노래 무장1)\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:M.MEG 작곡:카와노 미키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038176,
+        "source_bytes": 191,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3d9f18",
+    "korean": "INFORMATION HIGH(스킬:샤론의 유혹)\n작품:마크로스 플러스\n작사:DAI&KEN=GO→ 작곡:CMJK",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038424,
+        "source_bytes": 183,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3d9ff0",
+    "korean": "도그 파이터\n작품:초시공요새 마크로스\n작곡:하네다 켄타로",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038640,
+        "source_bytes": 92,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da080",
+    "korean": "젠트라디 대요새(전편)\n작품:초시공요새 마크로스\n작곡:하네다 켄타로",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038784,
+        "source_bytes": 110,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da120",
+    "korean": "젠트라디 대요새(후편)\n작품:초시공요새 마크로스\n작곡:하네다 켄타로",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4038944,
+        "source_bytes": 110,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da1b8",
+    "korean": "내 남자친구는 파일럿\n작품:초시공요새 마크로스\n노래:이이지마 마리\n작사:아사 아카네 작곡:하네다 켄타로",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039096,
+        "source_bytes": 136,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da268",
+    "korean": "내 남자친구는 파일럿\n작품:초시공요새 마크로스\n작곡:하네다 켄타로",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039272,
+        "source_bytes": 92,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da300",
+    "korean": "INFORMATION HIGH\n작품:마크로스 플러스\n작사:DAI&KEN=GO→ 작곡:CMJK",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039424,
+        "source_bytes": 144,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da460",
+    "korean": "After,in the dark\n작품:마크로스 플러스\n작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039776,
+        "source_bytes": 106,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da508",
+    "korean": "Battle Frontier(전편)\n작품:마크로스 F\n작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4039944,
+        "source_bytes": 108,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da598",
+    "korean": "돌격 러브 하트\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:K.Inojo 작곡:카와우치 아츠키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040088,
+        "source_bytes": 142,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da640",
+    "korean": "돌격 러브 하트\n작품:마크로스 7\n작곡:카와우치 아츠키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040256,
+        "source_bytes": 69,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da6c8",
+    "korean": "HOLY LONELY LIGHT(바사라)\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:K.Inojo 작곡:스도 히데키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040392,
+        "source_bytes": 183,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da7c8",
+    "korean": "HOLY LONELY LIGHT(밀레느)\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:K.Inojo 작곡:스도 히데키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040648,
+        "source_bytes": 186,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da8b8",
+    "korean": "HOLY LONELY LIGHT\n작품:마크로스 7\n작곡:스도 히데키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4040888,
+        "source_bytes": 97,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da948",
+    "korean": "MY FRIENDS\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:M.MEG 작곡:카와노 미키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041032,
+        "source_bytes": 143,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3da9f8",
+    "korean": "MY FRIENDS\n작품:마크로스 7\n작곡:카와노 미키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041208,
+        "source_bytes": 78,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3daac8",
+    "korean": "성간비행(스킬:반짝☆)\n작품:마크로스 F\n노래:란카 리=나카지마 메구미\n작사:마츠모토 타카시 작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041416,
+        "source_bytes": 159,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dab90",
+    "korean": "TRY AGAIN\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:K.Inojo、후쿠야마 쿄코 작곡:후쿠야마 요시키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041616,
+        "source_bytes": 164,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dac58",
+    "korean": "TRY AGAIN\n작품:마크로스 7\n작곡:후쿠야마 요시키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041816,
+        "source_bytes": 75,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dacc0",
+    "korean": "라이온 작품:마크로스 F\n노래:쉐릴 놈 starring May’n\n  & 란카 리=나카지마 메구미\n작사:Gabriela Robin 작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4041920,
+        "source_bytes": 233,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dadc0",
+    "korean": "라이온\n작품:마크로스 F\n작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042176,
+        "source_bytes": 65,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dae18",
+    "korean": "아이모\n작품:마크로스 F\n작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042264,
+        "source_bytes": 62,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dafc8",
+    "korean": "사수자리☆오후 9시 Don’t be late 작품:마크로스 F\n노래:쉐릴 놈 starring May’n \n작사:사토 다이、hal、마이크 스기야마、Gabriela Robin\n작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4042696,
+        "source_bytes": 256,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3db110",
+    "korean": "사수자리☆오후 9시 Don’t be late\n작품:마크로스 F\n작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043024,
+        "source_bytes": 112,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3db1a8",
+    "korean": "The Target\n작품:마크로스 F\n작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043176,
+        "source_bytes": 81,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3db290",
+    "korean": "노던 크로스(스킬:은하의 요정3)\n작품:마크로스 F\n노래:쉐릴 놈 starring May’n \n작사:이와사토 유호、Gabriela Robin 작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4043408,
+        "source_bytes": 227,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3db6f0",
+    "korean": "사랑, 기억하고 있습니까(스킬:사랑, 기억하고 있습니까)\n작품:초시공요새 마크로스 사랑, 기억하고 있습니까\n노래:이이지마 마리\n작사:야스이 카즈미 작곡:카토 카즈히코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4044528,
+        "source_bytes": 221,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3db908",
+    "korean": "TRY AGAIN(파이어 발키리:노래 SPA)\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:K.Inojo、후쿠야마 쿄코 작곡:후쿠야마 요시키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045064,
+        "source_bytes": 215,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dbae0",
+    "korean": "돌격 러브 하트(파이어 발키리:노래 무장1)\n작품:마크로스 7\n노래:FIRE BOMBER\n작사:K.Inojo 작곡:카와우치 아츠키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045536,
+        "source_bytes": 193,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dbbe0",
+    "korean": "인피니티 #7(스킬:은하의 요정2) 작품:마크로스 F\n노래:쉐릴 놈 starring May’n\n  & 란카 리=나카지마 메구미\n작사:이와사토 유호 작곡:칸노 요코 ",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4045792,
+        "source_bytes": 259,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dbd68",
+    "korean": "성간비행\n작품:마크로스 F\n노래:란카 리=나카지마 메구미\n작사:마츠모토 타카시 작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046184,
+        "source_bytes": 129,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dbe10",
+    "korean": "노던 크로스\n작품:마크로스 F\n노래:쉐릴 놈 starring May’n \n작사:이와사토 유호、Gabriela Robin 작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046352,
+        "source_bytes": 191,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dbfc0",
+    "korean": "DYNAMITE EXPLOSION\n작품:마크로스 다이너마이트 7\n노래:FIRE BOMBER\n작사:후루야 토시유키 작곡:후쿠야마 요시키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4046784,
+        "source_bytes": 185,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dc0d0",
+    "korean": "인피니티 #7 작품:마크로스 F\n노래:쉐릴 놈 starring May’n\n  & 란카 리=나카지마 메구미\n작사:이와사토 유호 작곡:칸노 요코 ",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047056,
+        "source_bytes": 223,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dc240",
+    "korean": "DYNAMITE EXPLOSION(VF-19P:노래 무장1)\n작품:마크로스 다이너마이트 7\n노래:FIRE BOMBER\n작사:후루야 토시유키 작곡:후쿠야마 요시키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4047424,
+        "source_bytes": 224,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dc568",
+    "korean": "Battle Frontier(후편)\n작품:마크로스 F\n작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048232,
+        "source_bytes": 108,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dc800",
+    "korean": "성간비행(폴드 스피커:노래 무장1)\n작품:마크로스 F\n노래:란카 리=나카지마 메구미\n작사:마츠모토 타카시 작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4048896,
+        "source_bytes": 180,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dc8f0",
+    "korean": "라이온(폴드 스피커:노래 무장2) 작품:마크로스 F\n노래:쉐릴 놈 starring May’n\n  & 란카 리=나카지마 메구미\n작사:Gabriela Robin 작곡:칸노 요코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049136,
+        "source_bytes": 284,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dca98",
+    "korean": "돌격 러브 하트(스톰 발키리:노래 무장1)\n작품:마크로스 7\n작곡:카와우치 아츠키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049560,
+        "source_bytes": 117,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dcb70",
+    "korean": "TRY AGAIN(스톰 발키리:노래 SPA)\n작품:마크로스 7\n작곡:후쿠야마 요시키",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049776,
+        "source_bytes": 123,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dcc18",
+    "korean": "2억 년 전처럼 고요하네\n작품:초시공요새 마크로스 II -LOVERS AGAIN-\n작곡:카시와라 노부히코",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4049944,
+        "source_bytes": 140,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dccd8",
+    "korean": "Burning Fire\n마크로스 얼티밋 프론티어 오프닝 테마\n노래:FIRE BOMBER 작사:카츠키 유나 작곡:indy\n편곡:손루이、카츠키 유나、이이즈카 케이스케",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4050136,
+        "source_bytes": 271,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dd0a0",
+    "korean": "VF-25S 메사이어 (오즈마기)\nS.M.S 스컬 소대장 오즈마의 회색 기체.\n일반기보다 성능이 높으며, 아머드\n파츠를 장착하면 강력한 화력을 낸다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4051104,
+        "source_bytes": 222,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dd280",
+    "korean": "VF-25G 메사이어 (미쉘기)\n장거리 전투용으로 개조한 VF-25.\n미쉘 전용의 파란 도장이 특징이다.\n스나이퍼 라이플과 장거리전에 맞춘\n머리 부분을 갖추고 있다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4051584,
+        "source_bytes": 236,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dd468",
+    "korean": "RVF-25 메사이어 (루카기)\n전자전용으로 개조한 VF-25.\n루카기는 연녹색으로 도장되어 있다.\n등에 대형 레이돔을 장착했으며,\n원격 조종 무인 전투기를 탑재한다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052072,
+        "source_bytes": 230,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dd638",
+    "korean": "YF-25 프로페시\nVF-25의 개발 시제 모델. S.M.S에서\nVF-25의 실전 운용 시험을 하기 전,\n각종 시험을 수행하기 위해 여러 대가\n제작된 시험기다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052536,
+        "source_bytes": 245,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dd800",
+    "korean": "VF-25A 메사이어 (일반기)\n지휘관용·전자전용·장거리 지원용 등\n다양한 VF-25 계열 기체의 기본형.\nS.M.S에 다수 배치되어 있다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4052992,
+        "source_bytes": 239,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dd938",
+    "korean": "VF-25S 메사이어 (크랑기)\nS.M.S 픽시 소대장 크랑의 지휘관기.\n지너스 부부를 존경해 밀리아기와 같은\n붉은색으로 도장했다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4053304,
+        "source_bytes": 213,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dda18",
+    "korean": "VF-25S 메사이어 (크랑기)\nS.M.S 픽시 소대장 크랑의 지휘관기.\n특별한 보라색 도장이 특징이며,\n등에는 노즈 아트가 그려져 있다.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4053528,
+        "source_bytes": 195,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3ddb10",
+    "korean": "쿼드란 레아 (일반기)\n쿼드란 로의 발전형. 등에 빔포를\n추가하고 팔의 무장도 강화했다.\n주로 픽시 소대의 주력기로 쓰인다.\n※ 리얼 플라이트 조작은 지원하지 않음.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4053776,
+        "source_bytes": 297,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3ddd50",
+    "korean": "쿼드란 레아 (크랑기)\n붉은색의 크랑 전용기. 강화복과 같은\n특성에 탑승자 크랑의 높은 전투력이\n더해져 강력한 성능을 발휘한다.\n※ 리얼 플라이트 조작은 지원하지 않음.",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4054352,
+        "source_bytes": 321,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3df010",
+    "korean": "알토의 동급생이자 뛰어난 저격수.\n적이든 여자든 노린 상대는 반드시\n떨어뜨린다는 신조를 갖고 있다.\n크랑과는 오랜 친구다. 누나도 군인\n출신의 저격수였다. (CV: 카미야 히로시)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4059152,
+        "source_bytes": 250,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3df118",
+    "korean": "알토의 후배. 전자기기 취급에 능하며,\n대기업 LAI 기술연구부의 특별 고문도\n맡고 있다. 전투에서는 전자전 장비를\n갖춘 RVF-25로 무인 전투기를 조종한다.\n(CV: 후쿠야마 준)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4059416,
+        "source_bytes": 256,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3df230",
+    "korean": "알토가 속한 민간 특수 군사 조직\nS.M.S의 스컬 소대장. 원래 신통합군의\n베테랑 파일럿이었으나, 어떤 사정으로\n란카를 거두어 보살피고 있다.\n(CV: 코니시 카츠유키)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4059696,
+        "source_bytes": 250,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3df338",
+    "korean": "S.M.S 픽시 소대장. 붉은 쿼드란\n레아에 탑승한다. 전투할 때는 거대한\n젠트라디의 모습이지만, 마이크론화하면\n어린 소녀의 몸이 되는 체질이다.\n(CV: 토요구치 메구미)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4059960,
+        "source_bytes": 268,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3df450",
+    "korean": "S.M.S 픽시 소대장. 유전자 이상으로\n마이크론화하면 어린 소녀의 몸이 되며,\n어째서인지 성격까지 어려진다.\n미쉘에게 자주 놀림받아 다툼이 끊이지\n않는다. (CV: 토요구치 메구미)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4060240,
+        "source_bytes": 265,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3df818",
+    "korean": "은하의 요정이라 불리는 톱 아이돌.\n자기 자신에 대한 절대적인 자신감으로\n자존심이 매우 강하다. 알토를 둘러싼\n란카와의 사랑 싸움은 이제 막 시작됐다.\n(CV: 엔도 아야)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061208,
+        "source_bytes": 283,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3df9b0",
+    "korean": "기억을 잃고 전투 기계가 된 신통합군\n파일럿. 감정이 희박하고 임무 수행을\n자신의 존재 이유로 여겼으나, 란카와\n만나면서 조금씩 변해 간다.\n(CV: 호시 소이치로)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4061616,
+        "source_bytes": 253,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dfda8",
+    "korean": "어릴 때부터 파일럿을 꿈꿔 온 신참.\n솔직하고 성실한 성격으로 다소\n소심하지만, 감정이 고조되면 강한\n모습을 드러낸다.\n(CV: 콘노 준)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062632,
+        "source_bytes": 265,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3dfee0",
+    "korean": "부유한 집안에서 부족함 없이 자랐지만\n따분한 삶에 싫증 나 파일럿이 되었다.\n수많은 전장을 거친 베테랑. 말투는\n거칠어도 좋은 형으로 신뢰받고 있다.\n(CV: 이나다 테츠)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4062944,
+        "source_bytes": 268,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e0080",
+    "korean": "군인이 되는 것이 의무인 군인 집안의\n드문 여성 파일럿. 밝은 성격으로\n남녀를 가리지 않고 친근하게 대해,\n남자들이 종종 오해하곤 한다.\n(CV: 사사키 히나코)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4063360,
+        "source_bytes": 259,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e01b0",
+    "korean": "어려서부터 용병인 아버지에게 엄격히\n훈련받은 실력 있는 여성 파일럿.\n아버지 혼자 키운 탓인지 거친 성격이나,\n요리가 취미인 여성스러운 면도 있다.\n(CV: 히노 미호)",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4063664,
+        "source_bytes": 262,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e0e98",
+    "korean": "방어력 2배. 공격받아도 경직되지 않음. SP 2칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4066968,
+        "source_bytes": 98,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e0f28",
+    "korean": "파이터 모드에서 색 연기 분출. ○: 켜기/끄기  □: 색 변경",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067112,
+        "source_bytes": 109,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e10a0",
+    "korean": "잠시 무적이 됨. SP 1칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067488,
+        "source_bytes": 49,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e11a8",
+    "korean": "가드 불가, 격투 공격력 3배. SP 3칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067752,
+        "source_bytes": 98,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e1230",
+    "korean": "저격수가 후방에서 라이플로 지원 사격. SP 3칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4067888,
+        "source_bytes": 100,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e12b0",
+    "korean": "모든 무장 재장전, 공격 빈틈 감소, 잠시 무적. SP 3칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068016,
+        "source_bytes": 118,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e1340",
+    "korean": "공격력·속도·부스트량 1.5배. SP 2칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068160,
+        "source_bytes": 85,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e13b0",
+    "korean": "모든 무장의 탄약 수 1.5배. SP 2칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068272,
+        "source_bytes": 61,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-3e14a8",
+    "korean": "나와 아군의 공격력 1.5배, HP 서서히 회복. SP 3칸 소비",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4068520,
+        "source_bytes": 105,
+        "encoding": "utf-8"
+      }
+    ]
+  },
+  {
+    "id": "TF-SPACE-45c360",
+    "korean": "그레이스 오코너",
+    "occurrences": [
+      {
+        "source": "EBOOT.elf",
+        "offset": 4572000,
+        "source_bytes": 39,
+        "encoding": "utf-8"
+      },
+      {
+        "source": "EBOOT.elf",
+        "offset": 4572196,
+        "source_bytes": 39,
+        "encoding": "utf-8"
       }
     ]
   }

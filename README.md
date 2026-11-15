@@ -1,12 +1,12 @@
 # Macross Frontier — Windows 포팅 프로젝트
 
-> **0.1.7 테스트 버전:** Vulkan·SPU LLVM 실행과 설치 시 SPU 코드 자동 생성을 반영했습니다. 화면 일부 오류를 수정했지만 **광원 검증과 전투 30fps 고정은 미완료**입니다. [릴리즈 설명](https://github.com/ccs21/macross_frontier/releases/tag/v0.1.7).
+> **0.1.8 테스트 버전:** 텍스트 583항목·UI 이미지 19종 한글화와 렌더러 선택을 반영했습니다. **종료 제보 조사와 전투 30fps 최적화는 진행 중**입니다. [릴리즈 설명](https://github.com/ccs21/macross_frontier/releases/tag/v0.1.8).
 
 Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하기 위한 런처·설치 도구입니다.
 
 | 작품 | 현재 상태 |
 | --- | --- |
-| [Trial Frontier](TrialFrontier/) | **0.1.7 테스트 버전 배포**, 부분 한글화 |
+| [Trial Frontier](TrialFrontier/) | **0.1.8 테스트 버전 배포**, 부분 한글화 |
 | Last Frontier | 후속 작업 예정. 폴더만 마련한 상태이며 실행 파일은 배포하지 않습니다. |
 
 **[최신 릴리즈 다운로드](https://github.com/ccs21/macross_frontier/releases/latest)** · **[설치 및 사용 방법](TrialFrontier/README.md)** · **[현재 문제와 작업 현황](TrialFrontier/STATUS.md)**
@@ -15,7 +15,7 @@ Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하�
 
 필요한 원본은 **극장판 마크로스 F - 거짓의 가희 - 하이브리드 팩 일본어판(Gekijouban Macross F - Itsuwari no Uta-hime - Hybrid Pack (Japan))의 ISO**입니다. 하이브리드 팩 전체 ISO를 선택하면 런처가 필요한 게임 파일을 자동으로 추출합니다.
 
-이 저장소에 공개하는 범위는 **포팅 런처, ISO 입력·설치, 로컬 한글 적용, 압축 해제 캐시 생성 코드**입니다. 게임 전체 엔진/재컴파일 코드의 공개 저장소는 아닙니다. 원본 게임·ISO·복호화 키·펌웨어·저장 파일은 제공하지 않습니다. 한글 이미지 메뉴 및 음성 자막도 아직 완성되지 않았습니다.
+이 저장소에 공개하는 범위는 **포팅 런처, ISO 입력·설치, 로컬 한글 적용, 압축 해제 캐시 생성 코드**입니다. 게임 전체 엔진/재컴파일 코드의 공개 저장소는 아닙니다. 원본 게임·ISO·복호화 키·펌웨어·저장 파일은 제공하지 않습니다. 주요 UI 이미지 한글화를 반영했으며, 음성 자막은 아직 제공하지 않습니다.
 
 게임을 실행할 때 RPCS3 에뮬레이션을 거치는 방식은 아닙니다. 동봉한 RPCS3 도구는 최초 설치 중 EBOOT 실행 파일을 준비하는 용도로만 사용합니다.
 

@@ -140,7 +140,10 @@ def strings(data):
                 pass
         else:
             continue
-        if re.search('[\u3041-\u3096\u30a1-\u30fa]', text) and all(c.isprintable() or c in '\n\r\t' for c in text):
+        # Python marks Japanese full-width spaces as non-printable. They occur
+        # in profiles, credits and skill descriptions and must not discard the
+        # entire displayed paragraph.
+        if re.search('[\u3041-\u3096\u30a1-\u30fa]', text) and all(c.isprintable() or c in '\n\r\t\u3000' for c in text):
             yield match.start(), len(raw), text, encoding
 
 

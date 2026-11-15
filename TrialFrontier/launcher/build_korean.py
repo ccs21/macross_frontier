@@ -48,7 +48,10 @@ def build(rom_pack, elf_path, translations, out, texconv):
     assert char_block == page_block + 16 + pages * 48
     records = [abf[char_block+16+i*32:char_block+48+i*32] for i in range(count)]
     codes = {struct.unpack_from('>I', r)[0] for r in records}
-    hangul = sorted({ord(c) for r in translations for c in r['korean'] if '\uac00' <= c <= '\ud7a3'} - codes)
+    # Include punctuation as well as Hangul: U+00B7 is absent from the game
+    # font and otherwise resolves to an unrelated glyph in translated lists.
+    hangul = sorted({ord(c) for r in translations for c in r['korean']
+                     if not c.isspace() and c.isprintable()} - codes)
     font = ImageFont.truetype('C:/Windows/Fonts/malgunbd.ttf', 23)
     images = out / 'font-pages'
     images.mkdir(exist_ok=True)
@@ -60,8 +63,11 @@ def build(rom_pack, elf_path, translations, out, texconv):
         for i, code in enumerate(hangul[start:start+100]):
             x,y = (i%10)*25, (i//10)*25
             # One-pixel gutter, fixed 24px advance, matching the game's 24px line grid.
-            draw.text((x+1,y+1), chr(code), font=font, fill=(255,255,255,255), anchor='lt')
-            records.append(struct.pack('>I4H3hBB', code,x,y,24,24,0,0,24,page_id,15) + b'\xfd'*12)
+            korean = 0xac00 <= code <= 0xd7a3
+            draw.text((x+1,y+1 if korean else y+20), chr(code), font=font,
+                      fill=(255,255,255,255), anchor='lt' if korean else 'ls')
+            advance = 24 if korean else min(24,max(1,round(font.getlength(chr(code)))))
+            records.append(struct.pack('>I4H3hBB', code,x,y,24,24,0,0,advance,page_id,15) + b'\xfd'*12)
         name = f'font_ko_{page_id:02}.dds'
         page.save(images / (Path(name).stem + '.png'))
         new_pages.append(name)
@@ -182,6 +188,8 @@ def build(rom_pack, elf_path, translations, out, texconv):
     (out/'elf-patches.bin').write_bytes(binary)
     from asset_overlay import apply, localize_tables
     apply(rom_pack,out,localize_tables(pack,translations))
+    from translate_graphics import build as build_graphics
+    apply(rom_pack,out,build_graphics(pack,out/'graphics',tool))
     (out/'build-report.json').write_text(json.dumps(dict(translations=len(translations),new_glyphs=len(hangul),font_pages=pages+len(new_pages),resident_members=len(members),font='Locally rasterized Windows Malgun Gothic Bold; no font file bundled',runtime_verified=False),ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'Built {len(hangul)} Korean glyphs, {len(translations)} strings, {len(bundle)} byte resident bundle, {relocated} relocated strings')
 
