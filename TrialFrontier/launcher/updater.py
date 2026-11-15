@@ -24,11 +24,49 @@ def version(text):
     if not match:raise ValueError('지원하지 않는 버전: '+text)
     return tuple(map(int,match.groups()))
 
+def internet_available():
+    """Read Windows' cached internet status locally; never probe a remote host."""
+    import ctypes
+    import uuid
+    if sys.platform!='win32':return False
+    ole=None;initialized=False;manager=ctypes.c_void_p()
+    try:
+        ole=ctypes.OleDLL('ole32')
+        ole.CoInitializeEx.argtypes=[ctypes.c_void_p,ctypes.c_ulong]
+        ole.CoInitializeEx.restype=ctypes.c_long
+        try:
+            result=ole.CoInitializeEx(None,0)
+            initialized=result in (0,1)
+        except OSError as error:
+            # The caller may already use a different COM apartment.
+            if getattr(error,'winerror',0)&0xffffffff!=0x80010106:return False
+        guid=lambda value:(ctypes.c_ubyte*16).from_buffer_copy(uuid.UUID(value).bytes_le)
+        clsid=guid('DCB00C01-570F-4A9B-8D69-199FDBA5723B')
+        iid=guid('DCB00000-570F-4A9B-8D69-199FDBA5723B')
+        ole.CoCreateInstance.argtypes=[ctypes.c_void_p,ctypes.c_void_p,ctypes.c_ulong,ctypes.c_void_p,ctypes.POINTER(ctypes.c_void_p)]
+        ole.CoCreateInstance.restype=ctypes.c_long
+        ole.CoCreateInstance(clsid,None,1,iid,ctypes.byref(manager))
+        if not manager.value:return False
+        table=ctypes.cast(manager,ctypes.POINTER(ctypes.POINTER(ctypes.c_void_p))).contents
+        connected=ctypes.c_short()
+        query=ctypes.WINFUNCTYPE(ctypes.c_long,ctypes.c_void_p,ctypes.POINTER(ctypes.c_short))(table[11])
+        return query(manager,ctypes.byref(connected))>=0 and bool(connected.value)
+    except (OSError,AttributeError):
+        # Updating is optional: unavailable network status must not prevent play.
+        return False
+    finally:
+        if manager.value:
+            table=ctypes.cast(manager,ctypes.POINTER(ctypes.POINTER(ctypes.c_void_p))).contents
+            ctypes.WINFUNCTYPE(ctypes.c_ulong,ctypes.c_void_p)(table[2])(manager)
+        if initialized:ole.CoUninitialize()
+
+
 def request(url):
     return urllib.request.urlopen(urllib.request.Request(url,headers={
         'User-Agent':'Macross-Trial-Frontier-Updater', 'Accept':'application/vnd.github+json'}),timeout=8)
 
 def latest(current):
+    if not internet_available():return None
     with request(API) as response:releases=json.load(response)
     choices=[]
     for release in releases:
