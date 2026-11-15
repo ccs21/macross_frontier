@@ -1,12 +1,12 @@
 # Macross Frontier — Windows 포팅 프로젝트
 
-> **1.0.1 정식 버전:** 텍스트 583항목·UI 이미지 19종과 음성 자막 2,772개를 반영했습니다. **종료 제보 조사와 전투 30fps 최적화는 진행 중**입니다. [릴리즈 설명](https://github.com/ccs21/macross_frontier/releases/tag/v1.0.1).
+> **1.0.2 정식 버전:** 텍스트 583항목·UI 이미지 19종과 음성 자막 2,772개를 반영했습니다. **종료 제보 조사와 전투 30fps 최적화는 진행 중**입니다. [릴리즈 설명](https://github.com/ccs21/macross_frontier/releases/tag/v1.0.2).
 
 Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하기 위한 런처·설치 도구입니다.
 
 | 작품 | 현재 상태 |
 | --- | --- |
-| [Trial Frontier](TrialFrontier/) | **1.0.1 정식 버전 배포**, 부분 한글화 |
+| [Trial Frontier](TrialFrontier/) | **1.0.2 정식 버전 배포**, 부분 한글화 |
 | Last Frontier | 후속 작업 예정. 폴더만 마련한 상태이며 실행 파일은 배포하지 않습니다. |
 
 **[최신 릴리즈 다운로드](https://github.com/ccs21/macross_frontier/releases/latest)** · **[설치 및 사용 방법](TrialFrontier/README.md)** · **[현재 문제와 작업 현황](TrialFrontier/STATUS.md)**
@@ -20,3 +20,5 @@ Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하�
 게임을 실행할 때 RPCS3 에뮬레이션을 거치는 방식은 아닙니다. 동봉한 RPCS3 도구는 최초 설치 중 EBOOT 실행 파일을 준비하는 용도로만 사용합니다.
 
 공개된 자체 런처·설치 코드에는 MIT 라이선스를 적용합니다. 외부 도구, 원본 게임, 로고·아이콘 등의 권리는 각 권리자에게 있으며 이 라이선스로 재허락하지 않습니다.
+
+실행은 **TrialFrontier.exe**를 사용하세요. 게임 본체는 첫 실행 시 `runtime/TrialFrontierRuntime.exe`로 준비됩니다. 이전 업데이트 프로그램 호환용 `MacrossTrialFrontier.exe`는 준비 완료 후 자동 정리됩니다. 기존 본체 바로가기는 런처 바로가기로 바꿔 주세요. 세이브·설정·게임 데이터·캐시는 기존 위치를 유지합니다.

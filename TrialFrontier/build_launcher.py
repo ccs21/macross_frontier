@@ -34,7 +34,7 @@ def main():
         '--distpath',str(work/'dist'),'--workpath',str(work/'work'),'--specpath',str(work),
         str(ROOT/'launcher/launcher.py')],check=True)
     shutil.copytree(work/'dist/TrialFrontier',output)
-    shutil.copy2(args.native_exe,output/'MacrossTrialFrontier.exe')
+    shutil.copy2(output/'TrialFrontier.exe',output/'MacrossTrialFrontier.exe')
     tools=output/'tools';(tools/'rpcs3').mkdir(parents=True)
     for path in [args.rpcs3_dir/'rpcs3.exe',*args.rpcs3_dir.glob('*.dll')]:
         shutil.copy2(path,tools/'rpcs3'/path.name)
@@ -46,6 +46,7 @@ def main():
     # Use the current authored recipes, tools and ABI headers.
     shutil.copytree(ROOT/'resources/spu-build',output/'resources/spu-build',dirs_exist_ok=True)
     shutil.copytree(args.native_runtime,output/'resources/native-runtime')
+    shutil.copy2(args.native_exe,output/'resources/native-runtime/TrialFrontierRuntime.exe')
     for path in args.native_runtime.glob('*.dll'):shutil.copy2(path,output/path.name)
     (output/'iso').mkdir()
     for name in ['README.md','STATUS.md']:shutil.copy2(ROOT/name,output/name)

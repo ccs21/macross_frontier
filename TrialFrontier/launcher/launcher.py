@@ -15,7 +15,7 @@ if not getattr(sys,'frozen',False):
 from install_core import install, ready, launch, resolve_source, inspect_iso, parse_key, KeyRequired, Cancelled, KEY_HELP
 import updater
 
-VERSION='1.0.1'
+VERSION='1.0.2'
 ROOT=Path(sys.executable).resolve().parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]/'installer-dev'
 BUNDLE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 RESOURCES={'rpcs3':ROOT/'tools/rpcs3/rpcs3.exe', 'texconv':ROOT/'tools/texconv.exe',
@@ -85,6 +85,10 @@ def main():
                     events.put(('update',payload));return
             except Exception as error:
                 (ROOT/'update.log').write_text(str(error),encoding='utf-8')
+        from prepare_runtime import migrate_layout
+        try:migrate_layout(ROOT)
+        except Exception as error:
+            events.put(('error',str(error)));return
         valid=ready(ROOT)
         if valid:
             try:

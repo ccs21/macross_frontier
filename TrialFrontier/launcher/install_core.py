@@ -336,7 +336,7 @@ def sync_voice_subtitles(root,resources):
 def launch(root):
     root=Path(root).resolve()
     if not ready(root,False):raise ValueError('필수 설치 파일이 없습니다. 먼저 설치를 완료하세요.')
-    exe=root/'MacrossTrialFrontier.exe'
+    exe=root/'runtime/TrialFrontierRuntime.exe'
     if not exe.is_file():raise ValueError('포팅 실행 파일이 없습니다.')
     env=native_environment()
     for key in list(env):
