@@ -47,7 +47,7 @@ def main():
     try:ctypes.windll.shcore.SetProcessDpiAwareness(1)
     except Exception:pass
     window=tk.Tk();window.withdraw()
-    window.title('Macross Trial Frontier — 테스트 버전 '+VERSION)
+    window.title('Macross Trial Frontier — '+VERSION)
     try:window.iconbitmap(str(BUNDLE/'icon.ico'))
     except tk.TclError:pass
     window.deiconify();window.geometry('680x340');window.minsize(620,320)
