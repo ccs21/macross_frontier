@@ -50,7 +50,7 @@ def run_and_record(root,version,launch):
            'PS3RECOMP_VK_WAIT_TRACE':str(perf/'waits.bin')}
     original={key:os.environ.get(key) for key in names}
     os.environ.update(names)
-    report['performance_capture']='Vulkan host wait attribution; not GPU timestamps; bounded raw files'
+    report['performance_capture']='Vulkan host wait attribution; not GPU timestamps; bounded circular files, sort by QPC'
     try:
         process=launch(root);report['pid']=process.pid
         code=process.wait();report.update(exit_code=code,exit_hex=f'0x{code & 0xffffffff:08X}')
