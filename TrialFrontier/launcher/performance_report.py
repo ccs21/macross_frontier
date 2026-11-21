@@ -7,7 +7,7 @@ CPU_FIELDS=['qpc','fetch','state_targets','pipeline_lookup','textures','constant
     'fetch_prepare_nested','fetch_decode_nested','fifo_idle','fifo_active','spu_runner_wall',
     'spu_runner_cycles','spu_runner_calls','frame_limiter','all_fences','swapchain_acquire',
     'queue_present','present_mutex','fifo_idle_calls','fifo_active_calls','present_thread_cpu_100ns',
-    'process_cpu_100ns','present_thread_id','clock_valid_mask','schema','reserved0','reserved1']
+    'process_cpu_100ns','present_thread_id','clock_valid_mask','schema','spu_publish_wakes','reserved1']
 WAIT_KINDS={1:'transfer_begin_including_draw_flush',2:'submit_and_wait',3:'fence_nested',
             4:'swapchain_acquire',5:'queue_present_including_queue_lock',6:'present_mutex',7:'frame_limiter'}
 LIMITS={'frames.bin':1296008,'waits.bin':4194312,'cpu.bin':4608008}
