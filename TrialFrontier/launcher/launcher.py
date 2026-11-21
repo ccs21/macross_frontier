@@ -15,7 +15,7 @@ if not getattr(sys,'frozen',False):
 from install_core import install, ready, launch, resolve_source, inspect_iso, parse_key, KeyRequired, Cancelled, KEY_HELP
 import updater
 
-VERSION='1.0.8'
+VERSION='1.0.9'
 ROOT=Path(sys.executable).resolve().parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]/'installer-dev'
 BUNDLE=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))
 RESOURCES={'rpcs3':ROOT/'tools/rpcs3/rpcs3.exe', 'texconv':ROOT/'tools/texconv.exe',
