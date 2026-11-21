@@ -6,12 +6,13 @@ from pathlib import Path
 import platform
 import shutil
 import zipfile
+from performance_report import summarize,LIMITS
 
 def prepare_performance_capture(root):
     """Fixed local paths: raw captures overwrite each run, no unbounded history."""
     folder=Path(root)/'diagnostics'/'performance-current'
     folder.mkdir(parents=True,exist_ok=True)
-    for name in ('frames.bin','waits.bin'):
+    for name in LIMITS:
         (folder/name).unlink(missing_ok=True)
     return folder
 
@@ -20,10 +21,13 @@ def pack_performance_capture(root,folder,report,settings):
     staging=base/'performance-latest.zip.tmp'
     latest=base/'performance-latest.zip'
     previous=base/'performance-previous.zip'
+    summary=summarize(folder)
+    report['capture_health']={key:value for key,value in summary.items() if key not in ('slow_frames','cpu_fields','wait_kinds','interpretation')}
     with zipfile.ZipFile(staging,'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('report.json',json.dumps(report,ensure_ascii=False,indent=2))
+        z.writestr('performance-summary.json',json.dumps(summary,ensure_ascii=False,indent=2))
         if settings.exists():z.write(settings,'settings.ini')
-        for name,limit in [('frames.bin',1296008),('waits.bin',4194312)]:
+        for name,limit in LIMITS.items():
             path=folder/name
             if path.exists():
                 with path.open('rb') as stream:z.writestr(name,stream.read(limit))
@@ -47,7 +51,8 @@ def run_and_record(root,version,launch):
     if settings.exists():shutil.copy2(settings,folder/'settings.ini')
     perf=prepare_performance_capture(root)
     names={'PS3RECOMP_VK_FRAME_TRACE':str(perf/'frames.bin'),
-           'PS3RECOMP_VK_WAIT_TRACE':str(perf/'waits.bin')}
+           'PS3RECOMP_VK_WAIT_TRACE':str(perf/'waits.bin'),
+           'PS3RECOMP_CPU_FRAME_TRACE':str(perf/'cpu.bin')}
     original={key:os.environ.get(key) for key in names}
     os.environ.update(names)
     report['performance_capture']='Vulkan host wait attribution; not GPU timestamps; bounded circular files, sort by QPC'
