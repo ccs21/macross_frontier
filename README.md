@@ -1,12 +1,12 @@
 # Macross Frontier — Windows 포팅 프로젝트
 
-> **1.0.6 정식 버전:** 텍스트 583항목·UI 이미지 19종과 음성 자막 2,772개를 반영했습니다. **종료 제보 조사와 전투 30fps 최적화는 진행 중**입니다. [릴리즈 설명](https://github.com/ccs21/macross_frontier/releases/tag/v1.0.6).
+> **1.0.7 정식 버전:** 텍스트 583항목·UI 이미지 19종과 음성 자막 2,772개를 반영했습니다. **종료 제보 조사와 전투 30fps 최적화는 진행 중**입니다. [릴리즈 설명](https://github.com/ccs21/macross_frontier/releases/tag/v1.0.7).
 
 Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하기 위한 런처·설치 도구입니다.
 
 | 작품 | 현재 상태 |
 | --- | --- |
-| [Trial Frontier](TrialFrontier/) | **1.0.6 정식 버전 배포**, 부분 한글화 |
+| [Trial Frontier](TrialFrontier/) | **1.0.7 정식 버전 배포**, 부분 한글화 |
 | Last Frontier | 후속 작업 예정. 폴더만 마련한 상태이며 실행 파일은 배포하지 않습니다. |
 
 **[최신 릴리즈 다운로드](https://github.com/ccs21/macross_frontier/releases/latest)** · **[설치 및 사용 방법](TrialFrontier/README.md)** · **[현재 문제와 작업 현황](TrialFrontier/STATUS.md)**
@@ -27,6 +27,6 @@ Windows 11에서 마크로스 프론티어 게임을 포터블하게 실행하�
 
 창 모드의 최대화 여부를 종료 시 저장하고 다음 실행에 복원합니다. 최소화 상태는 시작 상태로 저장하지 않습니다.
 
-### 1.0.6 성능 계측 보완
+### 1.0.7 렌더링 중복 처리 개선
 
-FIFO 실행·대기 계측을 연결하고 CPU 주요 6단계와 하위 단계, SPU runner 시간·사이클·횟수, 프레임 제한·화면 표시 대기를 추가했습니다. 계측 동작은 실제 실행에서 확인했으며 UMPC 성능 개선은 아직 검증 전입니다. Vulkan으로 문제 구간을 플레이하고 종료한 뒤 `diagnostics/performance-latest.zip`을 전달해 주세요. ZIP에 `cpu.bin`과 누락 검사·CPU 시간 요약인 `performance-summary.json`이 포함됩니다. 자동 전송하지 않습니다. 원본 세 파일 합계는 약 10.1MB로 제한하고 오래된 기록을 덮어씁니다. 성능 ZIP은 최신/직전 두 개만 유지하며 기존 일반 로그는 별도입니다. GPU 하드웨어 타임스탬프는 포함하지 않습니다. Direct3D 12는 이 Vulkan 계측의 대상이 아닙니다. 프레임 최적화는 계속 진행합니다.
+같은 렌더 패스에서 변하지 않은 상태 설정 명령을 생략하고, 파이프라인·프레임버퍼·샘플러 반복 조회를 개선했습니다. 조회는 현재 테이블 키를 검증합니다. 동일한 2,000개 그리기 명령의 렌더러 단독 시험에서 처리 시간이 약 32% 감소했고 출력 픽셀이 일치했습니다. 게임 전체 FPS 또는 UMPC의 개선율을 뜻하지 않습니다. CPU·FIFO·SPU·화면 표시 계측은 유지하며 `diagnostics/performance-latest.zip`으로 실제 교전을 비교합니다. 원본 세 파일 약 10.1MB 상한, 최신/직전 성능 ZIP 보관, 자동 전송 없음. 프레임 최적화는 계속 진행합니다.
