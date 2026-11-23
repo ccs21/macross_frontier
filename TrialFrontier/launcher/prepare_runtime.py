@@ -25,6 +25,18 @@ def ensure(root, progress=lambda text,pct:None):
             if temporary.exists():temporary.unlink()
     if not ready(root,bundle):
         prepare(root/'EBOOT.elf',root/'spu-ir',bundle,progress)
+    texture_cache=root/'cache/assets/texture-warm-v1.bin'
+    if not texture_cache.is_file():
+        progress('첫 화면 전에 사용할 텍스처 준비',95)
+        from prepare_texture_warm_cache import prepare as prepare_textures
+        try:
+            prepare_textures(root/'disc/PS3_GAME/USRDIR/data/pack',texture_cache)
+        except (OSError,ValueError) as error:
+            # This is an optional acceleration cache, not installed game data.
+            # Disk space/read errors must not prevent the original path running.
+            progress('텍스처 사전 준비를 건너뛰고 기존 방식으로 실행합니다',98)
+            try:(root/'texture-prewarm.log').write_text(str(error),encoding='utf-8')
+            except OSError:pass
 
 
 
